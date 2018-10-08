@@ -15,9 +15,8 @@ spring:
     bus:
       trace:
         enabled: true
-#端口号配置
 server:
-  port: 9231
+  port: 9231 #端口号配置
 eureka:
   client:
     service-url:
