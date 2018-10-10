@@ -1,5 +1,8 @@
 package com.yangy.manage.domain;
 
+import lombok.Builder;
+import lombok.Data;
+
 import java.io.Serializable;
 
 /**
