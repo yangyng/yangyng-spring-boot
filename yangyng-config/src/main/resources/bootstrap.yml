@@ -7,8 +7,8 @@ spring:
       server:
         #配置中心 git 配置
         git:
-          uri: https://github.com/wuliaoiii/project-config.git
-          username: 1756951369@qq.com
+          uri: https://github.com/yangyng/yangyng-config.git
+          username: m17610912950@163.com
           password: wuliao..0329
           basedir: D:\config
           search-paths: dev
