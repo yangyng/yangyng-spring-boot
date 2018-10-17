@@ -1,15 +1,17 @@
 package com.yangy.manage.controller;
 
 
-import com.baomidou.mybatisplus.extension.service.IService;
 import com.yangy.common.enums.ResultCode;
 import com.yangy.common.exception.BaseException;
 import com.yangy.common.model.Result;
 import com.yangy.common.utils.MD5Util;
 import com.yangy.manage.entity.SysUser;
 import com.yangy.manage.pojo.LoginVO;
+import com.yangy.manage.service.ISysUserService;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -28,7 +30,10 @@ import javax.annotation.Resource;
 public class SysUserController {
 
     @Resource
-    private IService<SysUser> service;
+    private ISysUserService service;
+
+    @Resource
+    private RedisTemplate redisTemplate;
 
     @PostMapping("login")
     public Result login(LoginVO loginVO) {
@@ -54,5 +59,15 @@ public class SysUserController {
         return null;
     }
 
-
+    @PostMapping("test/current")
+    public Result testCurrent(@RequestBody SysUser user) {
+        Boolean notAbsent = redisTemplate.opsForValue().setIfAbsent("key", "value");
+        if(!notAbsent){
+            System.out.println("该请求不予处理");
+        }else {
+            System.out.println("处理该请求");
+            service.doSomeThing(user);
+        }
+        return null;
+    }
 }
