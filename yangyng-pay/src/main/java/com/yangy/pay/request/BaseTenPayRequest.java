@@ -4,7 +4,6 @@ import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.yangy.pay.config.TenPayConfig;
 import com.yangy.pay.enums.SignType;
-import com.yangy.pay.utils.xml.SignUtils;
 import com.yangy.pay.utils.xml.XStreamInitializer;
 import lombok.Data;
 import org.apache.commons.lang3.StringUtils;
@@ -47,7 +46,7 @@ public abstract class BaseTenPayRequest implements Serializable {
     private String deviceInfo;
 
     public String getNonceStr() {
-        return UUID.randomUUID().toString().replaceAll("-", "").substring(0, 32)
+        return UUID.randomUUID().toString().replaceAll("-", "").substring(0, 32);
     }
 
     public static int yuanToFen(String yuan) {
@@ -77,6 +76,4 @@ public abstract class BaseTenPayRequest implements Serializable {
         //设置签名字段的值
 //        this.setSign(SignUtils.generateSignature(this, this.getSignType(), TenPayConfig.getMchKey(), this.getIgnoredParamsForSign()));
     }
-
-
 }
