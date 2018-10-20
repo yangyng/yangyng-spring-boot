@@ -12,6 +12,7 @@
         <module name="yangyng-gateway" />
         <module name="yangyng-manage" />
         <module name="yangyng-pay" />
+        <module name="yangyng-test" />
       </profile>
     </annotationProcessing>
   </component>

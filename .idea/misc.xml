@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/yangyng-manage/pom.xml" />
         <option value="$PROJECT_DIR$/yangyng-common/pom.xml" />
         <option value="$PROJECT_DIR$/yangyng-pay/pom.xml" />
+        <option value="$PROJECT_DIR$/yangyng-test/pom.xml" />
       </list>
     </option>
   </component>
