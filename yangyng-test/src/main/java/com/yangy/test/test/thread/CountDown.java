@@ -1,10 +1,12 @@
 package com.yangy.test.test.thread;
 
-import com.yangy.test.test.thread.RunnableImpl;
-
 import java.util.concurrent.CountDownLatch;
 
 /**
+ * <p>
+ * countDownLatch使用方式
+ * </p>
+ *
  * @author yang yang
  * @create 2018/10/20
  */
@@ -17,7 +19,7 @@ public class CountDown {
         CountDownLatch countDownLatch = new CountDownLatch(count);
 
         for (int i = 0; i < count; i++) {
-            RunnableImpl r1 = new RunnableImpl("r"+i);
+            RunnableImpl r1 = new RunnableImpl("r" + i);
             new Thread(r1).start();
             countDownLatch.countDown();
         }

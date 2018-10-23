@@ -5,6 +5,13 @@ import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.Callable;
 
+/**
+ * <p>
+ * 线程的callable实现方式
+ * </P>
+ *
+ * @param <AnyType>
+ */
 @Slf4j
 public class CallableImpl<AnyType> implements Callable<AnyType> {
 
@@ -20,7 +27,7 @@ public class CallableImpl<AnyType> implements Callable<AnyType> {
 
     public CallableImpl(String name, User user) {
         this.name = name;
-        log.info(user.getName()+ "|"+this.name );
+        log.info(user.getName() + "|" + this.name);
         user.setName(name);
         this.user = user;
     }

@@ -2,6 +2,11 @@ package com.yangy.test.test.thread;
 
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * <p>
+ * 线程的runnable实现方式
+ * </P>
+ */
 @Slf4j
 public class RunnableImpl implements Runnable {
 

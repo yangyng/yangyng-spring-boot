@@ -73,6 +73,11 @@ public class TestThread {
 
 }
 
+/**
+ * <p>
+ * 继承方式实现
+ * </p>
+ */
 @Slf4j
 class ThreadExtendImpl extends Thread {
     public ThreadExtendImpl(String name) {
@@ -85,6 +90,11 @@ class ThreadExtendImpl extends Thread {
     }
 }
 
+/**
+ * <p>
+ * runnable方式实现
+ * </P>
+ */
 @Slf4j
 class ThreadRunnableImpl implements Runnable {
 
@@ -100,6 +110,13 @@ class ThreadRunnableImpl implements Runnable {
     }
 }
 
+/**
+ * <p>
+ * callable方式实现
+ * </P>
+ *
+ * @param <AnyType>
+ */
 @Slf4j
 class ThreadCallableImpl<AnyType> implements Callable<AnyType> {
 

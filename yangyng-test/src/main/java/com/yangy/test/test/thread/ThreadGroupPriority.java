@@ -24,5 +24,4 @@ public class ThreadGroupPriority {
         System.out.println(thread.getPriority());
     }
 
-
 }
