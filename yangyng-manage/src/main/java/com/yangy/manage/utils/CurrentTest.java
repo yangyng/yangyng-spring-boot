@@ -54,19 +54,44 @@ class test implements Runnable {
 
     @Override
     public void run() {
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 15; i++) {
             SysUser build = SysUser.builder()
                     .userId(1L)
                     .locked(count)
                     .phone("17777777777")
                     .build();
-            String bean = "http://localhost:9330";
-            String url = "/user/test/current";
+            String bean = "http://localhost:81";
+//            String url = "/user/test/current";
+            String url = "/pay/pay/tencent/notify";
+
+            String str = "<xml>\n" +
+                    "  <appid><![CDATA[wx2421b1c4370ec43b]]></appid>\n" +
+                    "  <attach><![CDATA[支付测试]]></attach>\n" +
+                    "  <bank_type><![CDATA[CFT]]></bank_type>\n" +
+                    "  <fee_type><![CDATA[CNY]]></fee_type>\n" +
+                    "  <is_subscribe><![CDATA[Y]]></is_subscribe>\n" +
+                    "  <mch_id><![CDATA[10000100]]></mch_id>\n" +
+                    "  <nonce_str><![CDATA[5d2b6c2a8db53831f7eda20af46e531c]]></nonce_str>\n" +
+                    "  <openid><![CDATA[oUpF8uMEb4qRXf22hE3X68TekukE]]></openid>\n" +
+                    "  <out_trade_no><![CDATA[1409811653]]></out_trade_no>\n" +
+                    "  <result_code><![CDATA[SUCCESS]]></result_code>\n" +
+                    "  <return_code><![CDATA[SUCCESS]]></return_code>\n" +
+                    "  <sign><![CDATA[B552ED6B279343CB493C5DD0D78AB241]]></sign>\n" +
+                    "  <sub_mch_id><![CDATA[10000100]]></sub_mch_id>\n" +
+                    "  <time_end><![CDATA[20140903131540]]></time_end>\n" +
+                    "  <total_fee>1</total_fee>\n" +
+                    "<coupon_fee_0><![CDATA[10]]></coupon_fee_0>\n" +
+                    "<coupon_count><![CDATA[1]]></coupon_count>\n" +
+                    "<coupon_type><![CDATA[CASH]]></coupon_type>\n" +
+                    "<coupon_id><![CDATA[10000]]></coupon_id> \n" +
+                    "  <trade_type><![CDATA[JSAPI]]></trade_type>\n" +
+                    "  <transaction_id><![CDATA[1004400740201409030005092168]]></transaction_id>\n" +
+                    "</xml>";
 
             Map<String, Object> stringMapHashMap = new HashMap<>();
             String post = null;
             try {
-                post = HttpUtil.post("application/json", bean, url, JSON.toJSONString(build), 1000, 1000);
+                post = HttpUtil.post("application/json", bean, url, str, 1000, 1000);
                 System.out.println(post);
             } catch (Exception e) {
                 e.printStackTrace();

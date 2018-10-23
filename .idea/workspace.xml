@@ -11,14 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72143703-e2c9-4c83-9d73-1eec3ca4c166" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/TestGoto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/ThreadInterrupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yangyng-test/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/CallableImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/CallableImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/CountDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/CountDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/RunnableImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/RunnableImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/TestThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/TestThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/ThreadGroupPriority.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/ThreadGroupPriority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/utils/CurrentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/utils/CurrentTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/yangyng-manage/target/" />
     <ignored path=".idea/" />
@@ -42,8 +38,8 @@
           <entry key="class" value="1" />
           <entry key="ftl" value="1" />
           <entry key="gitignore" value="3" />
-          <entry key="java" value="169" />
-          <entry key="md" value="1" />
+          <entry key="java" value="171" />
+          <entry key="md" value="3" />
           <entry key="properties" value="3" />
           <entry key="xml" value="30" />
           <entry key="yml" value="14" />
@@ -53,8 +49,8 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="FTL" value="1" />
-          <entry key="JAVA" value="169" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="JAVA" value="171" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="30" />
           <entry key="YAML" value="14" />
@@ -63,7 +59,8 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="6482" />
+          <entry key="java" value="6511" />
+          <entry key="md" value="561" />
           <entry key="txt" value="197" />
           <entry key="xml" value="660" />
           <entry key="yml" value="35" />
@@ -71,8 +68,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6482" />
-          <entry key="PLAIN_TEXT" value="219" />
+          <entry key="JAVA" value="6511" />
+          <entry key="PLAIN_TEXT" value="780" />
           <entry key="XML" value="660" />
           <entry key="YAML" value="35" />
         </counts>
@@ -95,7 +92,52 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/utils/CurrentTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+              <folding>
+                <element signature="docComment;class#CurrentTest#0" />
+                <element signature="class#CurrentTest#0" />
+                <element signature="method#main#0;class#CurrentTest#0" />
+                <element signature="class#test#0" />
+                <element signature="method#test#0;class#test#0" />
+                <element signature="method#run#0;class#test#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yangyng-test/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/utils/HttpUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="73" column="65" selection-start-line="73" selection-start-column="65" selection-end-line="73" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -118,8 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/pojo/LoginVO.java" />
-        <option value="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/exception/MyException.java" />
         <option value="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/exception/BaseException.java" />
         <option value="$PROJECT_DIR$/yangyng-config/pom.xml" />
         <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/config/MybatisPlusConfig.java" />
@@ -148,7 +188,6 @@
         <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/utils/ReserveServiceImplTest.java" />
         <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/service/impl/SysUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/controller/SysUserController.java" />
-        <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/utils/CurrentTest.java" />
         <option value="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/handler/LogAspect.java" />
         <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/config/ManageWebMvcConfig.java" />
         <option value="$PROJECT_DIR$/yangyng-manage/pom.xml" />
@@ -169,6 +208,9 @@
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/RunnableImpl.java" />
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/TestThread.java" />
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/TestGoto.java" />
+        <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/utils/CurrentTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/yangyng-test/README.md" />
       </list>
     </option>
   </component>
@@ -198,10 +240,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -222,57 +264,6 @@
               <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
               <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
               <item name="yangyng-test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="yangyng-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="yangyng-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="yangyng-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="yangyng-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="yangyng-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="yangyng-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -306,6 +297,7 @@
       <recent name="com.yangy.common.rabbitmq.consumer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\test_work_space\yangyng-spring-boot\yangyng-test" />
       <recent name="D:\test_work_space\yangyng-spring-boot\yangyng-manage\src\main\java\com\yangy\manage\utils" />
       <recent name="D:\test_work_space\yangyng-spring-boot\yangyng-pay\src\main\java\com\yangy\pay\utils" />
       <recent name="D:\test_work_space\yangyng-spring-boot\yangyng-manage\src\main\resources" />
@@ -330,13 +322,13 @@
     </option>
     <option name="contentProportion" value="0.14246197" />
   </component>
-  <component name="RunManager" selected="Application.TestGoto">
-    <configuration name="CountDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangy.test.test.thread.CountDown" />
-      <module name="yangyng-test" />
+  <component name="RunManager" selected="Application.CurrentTest">
+    <configuration name="CurrentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yangy.manage.utils.CurrentTest" />
+      <module name="yangyng-manage" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yangy.test.test.thread.*" />
+          <option name="PATTERN" value="com.yangy.manage.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -446,19 +438,19 @@
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.YangyngPayApplication" />
       <item itemvalue="Spring Boot.YangyngTestApplication" />
-      <item itemvalue="Application.CountDown" />
       <item itemvalue="Application.TicketWindowTest" />
       <item itemvalue="Application.DaemonThread" />
       <item itemvalue="Application.ThreadGroupPriority" />
       <item itemvalue="Application.TestGoto" />
+      <item itemvalue="Application.CurrentTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CurrentTest" />
         <item itemvalue="Application.TestGoto" />
         <item itemvalue="Application.ThreadGroupPriority" />
         <item itemvalue="Application.DaemonThread" />
         <item itemvalue="Application.TicketWindowTest" />
-        <item itemvalue="Application.CountDown" />
       </list>
     </recent_temporary>
   </component>
@@ -486,7 +478,7 @@
       <workItem from="1539853798498" duration="3160000" />
       <workItem from="1539914802372" duration="5396000" />
       <workItem from="1539998075812" duration="16757000" />
-      <workItem from="1540259636218" duration="6309000" />
+      <workItem from="1540259636218" duration="16291000" />
     </task>
     <task id="LOCAL-00001" summary="修改MAVEN配置文件&#10;修改MD">
       <created>1539596729010</created>
@@ -548,7 +540,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84975000" />
+    <option name="totallyTimeSpent" value="94957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -561,7 +553,7 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32796487" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3455344" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28111273" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932525" weight="0.61786234" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -640,20 +632,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1554">
-          <caret line="599" column="7" lean-forward="true" selection-start-line="599" selection-start-column="7" selection-end-line="599" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="149" column="16" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/stream/LongStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -731,13 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/utils/HttpUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121">
-          <caret line="46" column="39" selection-start-line="35" selection-start-column="7" selection-end-line="46" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE-sources.jar!/org/springframework/data/redis/core/DefaultValueOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4788">
@@ -791,6 +762,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="819">
           <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -803,13 +777,6 @@
             <element signature="e#3651#3652#0" expanded="true" />
             <element signature="e#3686#3687#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/utils/CurrentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -1586,6 +1553,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/utils/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="73" column="65" selection-start-line="73" selection-start-column="65" selection-end-line="73" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/utils/CurrentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;class#CurrentTest#0" />
+            <element signature="class#CurrentTest#0" />
+            <element signature="method#main#0;class#CurrentTest#0" />
+            <element signature="class#test#0" />
+            <element signature="method#test#0;class#test#0" />
+            <element signature="method#run#0;class#test#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-test/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
