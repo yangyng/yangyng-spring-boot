@@ -44,10 +44,10 @@ tips:
 
 #### 1.4 线程的sleep方法和yield方法 ####
 
-1.sleep会导致当前线程停顿指定时间,没有CPU时间片的消耗
-2.yield只是对CPU调度器的一个提示,类似于GC的提示,执行不执行取决于CPU
-3.sleep会使线程短暂BLOCK,在给定时间内释放CPU资源
-4.一个线程sleep另一个线程调用interrupt会捕捉到中断信号,yield不会
+1. sleep会导致当前线程停顿指定时间,没有CPU时间片的消耗
+2. yield只是对CPU调度器的一个提示,类似于GC的提示,执行不执行取决于CPU
+3. sleep会使线程短暂BLOCK,在给定时间内释放CPU资源
+4. 一个线程sleep另一个线程调用interrupt会捕捉到中断信号,yield不会
 
 tips:
 

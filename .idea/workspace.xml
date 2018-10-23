@@ -11,10 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72143703-e2c9-4c83-9d73-1eec3ca4c166" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/yangyng-test/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/utils/CurrentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/utils/CurrentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-test/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-test/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/yangyng-manage/target/" />
     <ignored path=".idea/" />
@@ -60,8 +57,8 @@
         <counts>
           <entry key="dummy" value="22" />
           <entry key="java" value="6511" />
-          <entry key="md" value="561" />
-          <entry key="txt" value="197" />
+          <entry key="md" value="852" />
+          <entry key="txt" value="210" />
           <entry key="xml" value="660" />
           <entry key="yml" value="35" />
         </counts>
@@ -69,7 +66,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="6511" />
-          <entry key="PLAIN_TEXT" value="780" />
+          <entry key="PLAIN_TEXT" value="1084" />
           <entry key="XML" value="660" />
           <entry key="YAML" value="35" />
         </counts>
@@ -122,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yangyng-test/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state>
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -286,7 +283,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -478,7 +475,7 @@
       <workItem from="1539853798498" duration="3160000" />
       <workItem from="1539914802372" duration="5396000" />
       <workItem from="1539998075812" duration="16757000" />
-      <workItem from="1540259636218" duration="16291000" />
+      <workItem from="1540259636218" duration="17425000" />
     </task>
     <task id="LOCAL-00001" summary="修改MAVEN配置文件&#10;修改MD">
       <created>1539596729010</created>
@@ -536,14 +533,22 @@
       <option name="project" value="LOCAL" />
       <updated>1539784431256</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加MD&#10;修改并发测试方法">
+      <created>1540287181883</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1540287181883</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94957000" />
+    <option name="totallyTimeSpent" value="96091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5944363" visible="true" weight="0.23954116" />
       <window_info id="Structure" order="1" sideWeight="0.40556368" side_tool="true" weight="0.23954116" />
@@ -617,7 +622,8 @@
     <MESSAGE value="修改MAVEN POM" />
     <MESSAGE value="添加基础支付Request" />
     <MESSAGE value="添加并发控制方法&#10;修改配置文件&#10;修改POM文件&#10;修改用户控制器" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加并发控制方法&#10;修改配置文件&#10;修改POM文件&#10;修改用户控制器" />
+    <MESSAGE value="添加MD&#10;修改并发测试方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加MD&#10;修改并发测试方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1587,8 +1593,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yangyng-test/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state>
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
