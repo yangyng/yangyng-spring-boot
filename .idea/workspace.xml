@@ -11,7 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72143703-e2c9-4c83-9d73-1eec3ca4c166" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/TestMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yangyng-test/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-test/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/ThreadInterrupt.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/ThreadInterrupt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/TicketWindowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/TicketWindowTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/yangyng-manage/target/" />
     <ignored path=".idea/" />
@@ -32,11 +36,11 @@
     <session id="1062574585">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="2" />
           <entry key="ftl" value="1" />
           <entry key="gitignore" value="3" />
-          <entry key="java" value="171" />
-          <entry key="md" value="3" />
+          <entry key="java" value="177" />
+          <entry key="md" value="4" />
           <entry key="properties" value="3" />
           <entry key="xml" value="30" />
           <entry key="yml" value="14" />
@@ -44,10 +48,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="2" />
           <entry key="FTL" value="1" />
-          <entry key="JAVA" value="171" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="JAVA" value="177" />
+          <entry key="PLAIN_TEXT" value="7" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="30" />
           <entry key="YAML" value="14" />
@@ -56,34 +60,35 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="6511" />
-          <entry key="md" value="852" />
-          <entry key="txt" value="210" />
+          <entry key="java" value="6942" />
+          <entry key="md" value="1502" />
+          <entry key="txt" value="211" />
           <entry key="xml" value="660" />
           <entry key="yml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6511" />
-          <entry key="PLAIN_TEXT" value="1084" />
+          <entry key="JAVA" value="6942" />
+          <entry key="PLAIN_TEXT" value="1735" />
           <entry key="XML" value="660" />
           <entry key="YAML" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.34" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
     </session>
@@ -91,27 +96,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/utils/CurrentTest.java">
+        <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/ThreadInterrupt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-              <folding>
-                <element signature="docComment;class#CurrentTest#0" />
-                <element signature="class#CurrentTest#0" />
-                <element signature="method#main#0;class#CurrentTest#0" />
-                <element signature="class#test#0" />
-                <element signature="method#test#0;class#test#0" />
-                <element signature="method#run#0;class#test#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+            <state relative-caret-position="265">
+              <caret line="51" column="70" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -119,17 +107,179 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yangyng-test/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="413">
+              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/utils/HttpUtil.java">
+        <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/TestMonitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="73" column="65" selection-start-line="73" selection-start-column="65" selection-end-line="73" selection-end-column="65" />
+            <state relative-caret-position="168">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangyng-test/target/classes/com/yangy/test/test/thread/TestMonitor.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#825#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/TicketWindowTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="962" column="32" selection-start-line="962" selection-start-column="19" selection-end-line="962" selection-end-column="32" />
+              <folding>
+                <element signature="docComment;class#Thread#0" />
+                <element signature="initializer##0;class#Thread#0" />
+                <element signature="e#6729#6990#0" />
+                <element signature="e#7338#7541#0" />
+                <element signature="e#7547#7610#0" />
+                <element signature="e#7661#7730#0" />
+                <element signature="e#7783#7846#0" />
+                <element signature="e#7899#8034#0" />
+                <element signature="e#8089#8879#0" />
+                <element signature="e#8924#9636#0" />
+                <element signature="e#9720#10656#0" />
+                <element signature="e#9720#11157#0" />
+                <element signature="e#11163#11322#0" />
+                <element signature="e#11163#11489#0" />
+                <element signature="e#11495#12088#0" />
+                <element signature="e#11495#14284#0" />
+                <element signature="e#14290#14498#0" />
+                <element signature="e#14290#14631#0" />
+                <element signature="e#14637#14999#0" />
+                <element signature="e#15091#15668#0" />
+                <element signature="e#15777#15903#0" />
+                <element signature="e#15777#16037#0" />
+                <element signature="e#16043#17191#0" />
+                <element signature="e#17320#17587#0" />
+                <element signature="e#17667#18527#0" />
+                <element signature="e#18627#19083#0" />
+                <element signature="e#19182#21407#0" />
+                <element signature="e#21526#25393#0" />
+                <element signature="e#21526#25548#0" />
+                <element signature="e#25554#26264#0" />
+                <element signature="e#25554#27369#0" />
+                <element signature="e#27410#27848#0" />
+                <element signature="e#27410#27958#0" />
+                <element signature="e#27964#28089#0" />
+                <element signature="e#27964#28564#0" />
+                <element signature="e#28570#32828#0" />
+                <element signature="e#32512#32575#0" />
+                <element signature="e#33652#35481#0" />
+                <element signature="e#33652#35873#0" />
+                <element signature="e#35879#36668#0" />
+                <element signature="e#36709#36710#0" expanded="true" />
+                <element signature="e#36767#36768#0" expanded="true" />
+                <element signature="e#36774#37268#0" />
+                <element signature="e#37354#37523#0" />
+                <element signature="e#37597#38578#0" />
+                <element signature="e#38673#38904#0" />
+                <element signature="e#38953#40204#0" />
+                <element signature="e#38953#40303#0" />
+                <element signature="e#40309#41224#0" />
+                <element signature="e#40309#41321#0" />
+                <element signature="e#41327#42330#0" />
+                <element signature="e#41327#42788#0" />
+                <element signature="e#42794#42920#0" />
+                <element signature="e#42994#43511#0" />
+                <element signature="e#42994#43806#0" />
+                <element signature="e#43812#43934#0" />
+                <element signature="e#44003#44206#0" />
+                <element signature="e#44288#45102#0" />
+                <element signature="e#45215#46491#0" />
+                <element signature="e#46621#47090#0" />
+                <element signature="e#47154#48046#0" />
+                <element signature="e#47154#48703#0" />
+                <element signature="e#48709#49761#0" />
+                <element signature="e#48709#50273#0" />
+                <element signature="e#50279#50763#0" />
+                <element signature="e#50279#50845#0" />
+                <element signature="e#50851#51040#0" />
+                <element signature="e#51145#51788#0" />
+                <element signature="e#51145#51972#0" />
+                <element signature="e#51978#52195#0" />
+                <element signature="e#52268#52761#0" />
+                <element signature="e#52268#52951#0" />
+                <element signature="e#52957#53150#0" />
+                <element signature="e#52957#53519#0" />
+                <element signature="e#53525#54835#0" />
+                <element signature="e#53525#55257#0" />
+                <element signature="e#55263#56259#0" />
+                <element signature="e#55263#56528#0" />
+                <element signature="e#56534#57125#0" />
+                <element signature="e#57287#58949#0" />
+                <element signature="e#57287#60109#0" />
+                <element signature="e#59334#59396#0" />
+                <element signature="e#59701#59769#0" />
+                <element signature="e#60115#61698#0" />
+                <element signature="e#60115#62661#0" />
+                <element signature="e#62828#62875#0" />
+                <element signature="e#62828#63347#0" />
+                <element signature="e#63014#63061#0" />
+                <element signature="e#63184#63237#0" />
+                <element signature="e#63353#63645#0" />
+                <element signature="e#63353#64171#0" />
+                <element signature="e#64177#64404#0" />
+                <element signature="e#64177#65500#0" />
+                <element signature="e#65635#65987#0" />
+                <element signature="e#66045#67251#0" />
+                <element signature="e#66045#69689#0" />
+                <element signature="e#67284#67363#0" />
+                <element signature="e#67386#67641#0" />
+                <element signature="e#67669#67986#0" />
+                <element signature="e#68013#68885#0" />
+                <element signature="e#68912#69519#0" />
+                <element signature="e#69552#69663#0" />
+                <element signature="e#69695#69922#0" />
+                <element signature="e#69695#70050#0" />
+                <element signature="e#70081#71152#0" />
+                <element signature="e#70081#71588#0" />
+                <element signature="e#71234#71527#0" />
+                <element signature="e#71822#73501#0" />
+                <element signature="e#71822#73870#0" />
+                <element signature="e#73876#74205#0" />
+                <element signature="e#73876#74340#0" />
+                <element signature="e#74346#74775#0" />
+                <element signature="e#74346#74945#0" />
+                <element signature="e#74951#75686#0" />
+                <element signature="e#74951#75829#0" />
+                <element signature="e#75835#75961#0" />
+                <element signature="e#76097#76220#0" />
+                <element signature="e#76097#76536#0" />
+                <element signature="e#76542#76590#0" />
+                <element signature="e#76542#78010#0" />
+                <element signature="e#76663#76821#0" />
+                <element signature="e#76863#76972#0" />
+                <element signature="e#76863#77134#0" />
+                <element signature="e#77144#77227#0" />
+                <element signature="e#77322#77610#0" />
+                <element signature="e#77322#78004#0" />
+                <element signature="e#78017#78086#0" />
+                <element signature="e#78353#78400#0" />
+                <element signature="e#78469#78538#0" />
+                <element signature="e#78607#78676#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,6 +298,7 @@
     <findStrings>
       <find>forEac</find>
       <find>sou</find>
+      <find>notify</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,8 +308,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/exception/BaseException.java" />
-        <option value="$PROJECT_DIR$/yangyng-config/pom.xml" />
         <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/config/MybatisPlusConfig.java" />
         <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/mapper/SysLogMapper.java" />
         <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/mapper/SysUserMapper.java" />
@@ -198,7 +347,6 @@
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/DaemonThread.java" />
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/DaemonThread.java" />
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/ThreadGroupPriority.java" />
-        <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/ThreadInterrupt.java" />
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/MyClassLoader.java" />
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/CallableImpl.java" />
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/CountDown.java" />
@@ -207,6 +355,9 @@
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/TestGoto.java" />
         <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/utils/CurrentTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/ThreadInterrupt.java" />
+        <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/TicketWindowTest.java" />
+        <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/TestMonitor.java" />
         <option value="$PROJECT_DIR$/yangyng-test/README.md" />
       </list>
     </option>
@@ -250,6 +401,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,11 +414,61 @@
               <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
               <item name="yangyng-test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -278,7 +480,8 @@
     <property name="SearchEverywhereHistoryKey" value="ClassLoader&#9;PSI&#9;JAVA://java.lang.ClassLoader&#10;MybatisPlusAutoConfiguration&#9;PSI&#9;JAVA://com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/idea_work_space/beauty/share-beauty-user" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="D:/idea_work_space/beauty/share-beauty-common" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -319,7 +522,7 @@
     </option>
     <option name="contentProportion" value="0.14246197" />
   </component>
-  <component name="RunManager" selected="Application.CurrentTest">
+  <component name="RunManager" selected="Application.TestMonitor">
     <configuration name="CurrentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yangy.manage.utils.CurrentTest" />
       <module name="yangyng-manage" />
@@ -333,8 +536,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaemonThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangy.test.test.thread.DaemonThread" />
+    <configuration name="TestGoto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yangy.test.test.thread.TestGoto" />
       <module name="yangyng-test" />
       <extension name="coverage">
         <pattern>
@@ -346,8 +549,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGoto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangy.test.test.thread.TestGoto" />
+    <configuration name="TestMonitor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yangy.test.test.thread.TestMonitor" />
       <module name="yangyng-test" />
       <extension name="coverage">
         <pattern>
@@ -372,8 +575,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicketWindowTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangy.test.test.thread.TicketWindowTest" />
+    <configuration name="ThreadInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yangy.test.test.thread.ThreadInterrupt" />
       <module name="yangyng-test" />
       <extension name="coverage">
         <pattern>
@@ -435,19 +638,19 @@
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.YangyngPayApplication" />
       <item itemvalue="Spring Boot.YangyngTestApplication" />
-      <item itemvalue="Application.TicketWindowTest" />
-      <item itemvalue="Application.DaemonThread" />
       <item itemvalue="Application.ThreadGroupPriority" />
       <item itemvalue="Application.TestGoto" />
       <item itemvalue="Application.CurrentTest" />
+      <item itemvalue="Application.ThreadInterrupt" />
+      <item itemvalue="Application.TestMonitor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMonitor" />
+        <item itemvalue="Application.ThreadInterrupt" />
         <item itemvalue="Application.CurrentTest" />
         <item itemvalue="Application.TestGoto" />
         <item itemvalue="Application.ThreadGroupPriority" />
-        <item itemvalue="Application.DaemonThread" />
-        <item itemvalue="Application.TicketWindowTest" />
       </list>
     </recent_temporary>
   </component>
@@ -475,7 +678,8 @@
       <workItem from="1539853798498" duration="3160000" />
       <workItem from="1539914802372" duration="5396000" />
       <workItem from="1539998075812" duration="16757000" />
-      <workItem from="1540259636218" duration="17425000" />
+      <workItem from="1540259636218" duration="20183000" />
+      <workItem from="1540345858303" duration="16509000" />
     </task>
     <task id="LOCAL-00001" summary="修改MAVEN配置文件&#10;修改MD">
       <created>1539596729010</created>
@@ -540,17 +744,31 @@
       <option name="project" value="LOCAL" />
       <updated>1540287181883</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加MD">
+      <created>1540288321645</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1540288321645</updated>
+    </task>
+    <task id="LOCAL-00011" summary="添加MD">
+      <created>1540288394303</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1540288394303</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96091000" />
+    <option name="totallyTimeSpent" value="115358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5944363" visible="true" weight="0.23954116" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5944363" visible="true" weight="0.29082322" />
       <window_info id="Structure" order="1" sideWeight="0.40556368" side_tool="true" weight="0.23954116" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -558,15 +776,15 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32796487" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28111273" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.58704454" weight="0.6061493" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932525" weight="0.61786234" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.5651537" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.64912283" weight="0.33821377" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3508772" side_tool="true" weight="0.4919473" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.64912283" weight="0.39238653" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.41295546" side_tool="true" weight="0.28111273" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49932525" weight="0.5241581" />
       <window_info anchor="bottom" id="Run Dashboard" order="12" sideWeight="0.4979757" weight="0.29282576" />
       <window_info anchor="bottom" id="Spring" order="13" />
@@ -623,7 +841,8 @@
     <MESSAGE value="添加基础支付Request" />
     <MESSAGE value="添加并发控制方法&#10;修改配置文件&#10;修改POM文件&#10;修改用户控制器" />
     <MESSAGE value="添加MD&#10;修改并发测试方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加MD&#10;修改并发测试方法" />
+    <MESSAGE value="添加MD" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加MD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -638,20 +857,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/stream/LongStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1256" column="43" lean-forward="true" selection-start-line="1256" selection-start-column="43" selection-end-line="1256" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/controller/SysMenuController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -768,9 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="819">
           <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,11 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="62" column="57" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
-          <folding>
-            <element signature="method#customJackson2HttpMessageConverter#0;class#ManageWebMvcConfig#0" />
-            <element signature="e#3651#3652#0" expanded="true" />
-            <element signature="e#3686#3687#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -857,9 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,9 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="607">
           <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -887,151 +1078,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="264" lean-forward="true" selection-start-line="264" selection-end-line="264" />
-          <folding>
-            <element signature="docComment;class#Thread#0" />
-            <element signature="initializer##0;class#Thread#0" />
-            <element signature="e#6729#6990#0" />
-            <element signature="e#7338#7541#0" />
-            <element signature="e#7547#7610#0" />
-            <element signature="e#7661#7730#0" />
-            <element signature="e#7783#7846#0" />
-            <element signature="e#7899#8034#0" />
-            <element signature="e#8089#8879#0" />
-            <element signature="e#8924#9636#0" />
-            <element signature="e#9720#10656#0" />
-            <element signature="e#9720#11157#0" />
-            <element signature="e#11163#11322#0" />
-            <element signature="e#11163#11489#0" />
-            <element signature="e#11495#12088#0" />
-            <element signature="e#11495#14284#0" />
-            <element signature="e#14290#14498#0" />
-            <element signature="e#14290#14631#0" />
-            <element signature="e#14637#14999#0" />
-            <element signature="e#15091#15668#0" />
-            <element signature="e#15777#15903#0" />
-            <element signature="e#15777#16037#0" />
-            <element signature="e#16043#17191#0" />
-            <element signature="e#17320#17587#0" />
-            <element signature="e#17667#18527#0" />
-            <element signature="e#18627#19083#0" />
-            <element signature="e#19182#21407#0" />
-            <element signature="e#21526#25393#0" />
-            <element signature="e#21526#25548#0" />
-            <element signature="e#25554#26264#0" />
-            <element signature="e#27410#27848#0" />
-            <element signature="e#27410#27958#0" />
-            <element signature="e#27964#28089#0" />
-            <element signature="e#27964#28564#0" />
-            <element signature="e#28570#32175#0" />
-            <element signature="e#28570#32828#0" />
-            <element signature="e#32512#32575#0" />
-            <element signature="e#32834#33516#0" />
-            <element signature="e#33652#35481#0" />
-            <element signature="e#33652#35873#0" />
-            <element signature="e#35879#36668#0" />
-            <element signature="e#36774#37268#0" />
-            <element signature="e#37354#37523#0" />
-            <element signature="e#37597#38578#0" />
-            <element signature="e#38673#38904#0" />
-            <element signature="e#38953#40204#0" />
-            <element signature="e#38953#40303#0" />
-            <element signature="e#40309#41224#0" />
-            <element signature="e#40309#41321#0" />
-            <element signature="e#41327#42330#0" />
-            <element signature="e#41327#42788#0" />
-            <element signature="e#42794#42920#0" />
-            <element signature="e#42994#43511#0" />
-            <element signature="e#42994#43806#0" />
-            <element signature="e#43812#43934#0" />
-            <element signature="e#44003#44206#0" />
-            <element signature="e#44288#45102#0" />
-            <element signature="e#45215#46491#0" />
-            <element signature="e#46621#47090#0" />
-            <element signature="e#47154#48046#0" />
-            <element signature="e#47154#48703#0" />
-            <element signature="e#48709#49761#0" />
-            <element signature="e#48709#50273#0" />
-            <element signature="e#50279#50763#0" />
-            <element signature="e#50279#50845#0" />
-            <element signature="e#50851#51040#0" />
-            <element signature="e#51145#51788#0" />
-            <element signature="e#51145#51972#0" />
-            <element signature="e#51978#52195#0" />
-            <element signature="e#52268#52761#0" />
-            <element signature="e#52268#52951#0" />
-            <element signature="e#52957#53150#0" />
-            <element signature="e#52957#53519#0" />
-            <element signature="e#53525#54835#0" />
-            <element signature="e#53525#55257#0" />
-            <element signature="e#55263#56259#0" />
-            <element signature="e#55263#56528#0" />
-            <element signature="e#56534#57125#0" />
-            <element signature="e#57287#58949#0" />
-            <element signature="e#57287#60109#0" />
-            <element signature="e#59334#59396#0" />
-            <element signature="e#59701#59769#0" />
-            <element signature="e#60115#61698#0" />
-            <element signature="e#60115#62661#0" />
-            <element signature="e#62828#62875#0" />
-            <element signature="e#62828#63347#0" />
-            <element signature="e#63014#63061#0" />
-            <element signature="e#63184#63237#0" />
-            <element signature="e#63353#63645#0" />
-            <element signature="e#63353#64171#0" />
-            <element signature="e#64177#64404#0" />
-            <element signature="e#64177#65500#0" />
-            <element signature="e#65635#65987#0" />
-            <element signature="e#66045#67251#0" />
-            <element signature="e#66045#69689#0" />
-            <element signature="e#67284#67363#0" />
-            <element signature="e#67386#67641#0" />
-            <element signature="e#67669#67986#0" />
-            <element signature="e#68013#68885#0" />
-            <element signature="e#68912#69519#0" />
-            <element signature="e#69552#69663#0" />
-            <element signature="e#69695#69922#0" />
-            <element signature="e#69695#70050#0" />
-            <element signature="e#70081#71152#0" />
-            <element signature="e#70081#71588#0" />
-            <element signature="e#71234#71527#0" />
-            <element signature="e#71822#73501#0" />
-            <element signature="e#71822#73870#0" />
-            <element signature="e#73876#74205#0" />
-            <element signature="e#73876#74340#0" />
-            <element signature="e#74346#74775#0" />
-            <element signature="e#74346#74945#0" />
-            <element signature="e#74951#75686#0" />
-            <element signature="e#74951#75829#0" />
-            <element signature="e#75835#75961#0" />
-            <element signature="e#76097#76220#0" />
-            <element signature="e#76097#76536#0" />
-            <element signature="e#76542#76590#0" />
-            <element signature="e#76542#78010#0" />
-            <element signature="e#76663#76821#0" />
-            <element signature="e#76863#76972#0" />
-            <element signature="e#76863#77134#0" />
-            <element signature="e#77144#77227#0" />
-            <element signature="e#77322#77610#0" />
-            <element signature="e#77322#78004#0" />
-            <element signature="e#78017#78086#0" />
-            <element signature="e#78353#78400#0" />
-            <element signature="e#78469#78538#0" />
-            <element signature="e#78607#78676#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/MyClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/MyClassLoader.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -1156,10 +1203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1181,12 +1224,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1194,24 +1231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="112" selection-start-line="112" selection-end-line="112" />
-          <folding>
-            <element signature="docComment;class#TestThread#0" />
-            <element signature="class#TestThread#0" />
-            <element signature="method#main#0;class#TestThread#0" />
-            <element signature="docComment;method#thread#0;class#TestThread#0" />
-            <element signature="method#thread#0;class#TestThread#0" />
-            <element signature="docComment;method#runnable#0;class#TestThread#0" />
-            <element signature="method#runnable#0;class#TestThread#0" />
-            <element signature="docComment;method#callable#0;class#TestThread#0" />
-            <element signature="method#callable#0;class#TestThread#0" />
-            <element signature="docComment;class#ThreadExtendImpl#0" />
-            <element signature="class#ThreadExtendImpl#0" />
-            <element signature="docComment;class#ThreadRunnableImpl#0" />
-            <element signature="class#ThreadRunnableImpl#0" />
-            <element signature="docComment;class#ThreadCallableImpl#0" />
-            <element signature="class#ThreadCallableImpl#0" />
-            <element signature="method#call#0;class#ThreadCallableImpl#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1325,66 +1344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-          <folding>
-            <element signature="docComment;class#Double#0" />
-            <element signature="e#946#1134#0" />
-            <element signature="e#1202#1390#0" />
-            <element signature="e#1459#1657#0" />
-            <element signature="e#1712#2046#0" />
-            <element signature="e#2147#2455#0" />
-            <element signature="e#2545#2832#0" />
-            <element signature="e#2918#3116#0" />
-            <element signature="e#3171#3375#0" />
-            <element signature="e#3431#3535#0" />
-            <element signature="e#3580#3685#0" />
-            <element signature="e#3745#3873#0" />
-            <element signature="e#4012#7426#0" />
-            <element signature="e#7538#10928#0" />
-            <element signature="e#7538#13273#0" />
-            <element signature="e#11805#11859#0" />
-            <element signature="e#12141#12190#0" />
-            <element signature="e#12313#12358#0" />
-            <element signature="e#12833#12885#0" />
-            <element signature="e#13279#20227#0" />
-            <element signature="e#20356#20890#0" />
-            <element signature="e#20977#21560#0" />
-            <element signature="e#20977#21691#0" />
-            <element signature="e#21697#21981#0" />
-            <element signature="e#22062#22384#0" />
-            <element signature="e#22514#22872#0" />
-            <element signature="e#22985#23050#0" />
-            <element signature="e#23088#23301#0" />
-            <element signature="e#23334#23335#0" expanded="true" />
-            <element signature="e#23368#23369#0" expanded="true" />
-            <element signature="e#23375#23884#0" />
-            <element signature="e#23375#23981#0" />
-            <element signature="e#23987#24237#0" />
-            <element signature="e#24307#24617#0" />
-            <element signature="e#24697#25065#0" />
-            <element signature="e#25140#25457#0" />
-            <element signature="e#25527#25846#0" />
-            <element signature="e#25919#26214#0" />
-            <element signature="e#26281#26577#0" />
-            <element signature="e#26647#26966#0" />
-            <element signature="e#27039#27195#0" />
-            <element signature="e#27263#27988#0" />
-            <element signature="e#28081#28321#0" />
-            <element signature="e#28081#28463#0" />
-            <element signature="e#28469#30182#0" />
-            <element signature="e#28469#30375#0" />
-            <element signature="e#30381#31776#0" />
-            <element signature="e#30381#32220#0" />
-            <element signature="e#31891#31946#0" />
-            <element signature="e#32226#33822#0" />
-            <element signature="e#33893#36836#0" />
-            <element signature="e#36903#38259#0" />
-            <element signature="e#38379#39133#0" />
-            <element signature="e#38379#39793#0" />
-            <element signature="e#39799#40114#0" />
-            <element signature="e#40199#40527#0" />
-            <element signature="e#40621#40950#0" />
-            <element signature="e#41044#41107#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1495,56 +1454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="205" column="46" selection-start-line="205" selection-start-column="41" selection-end-line="205" selection-end-column="46" />
-          <folding>
-            <element signature="docComment;class#Short#0" />
-            <element signature="docComment;field#MIN_VALUE#0;class#Short#0" />
-            <element signature="docComment;field#MAX_VALUE#0;class#Short#0" />
-            <element signature="docComment;field#TYPE#0;class#Short#0" />
-            <element signature="docComment;method#toString#0;class#Short#0" />
-            <element signature="docComment;method#parseShort#0;class#Short#0" />
-            <element signature="method#parseShort#0;class#Short#0" />
-            <element signature="docComment;method#parseShort#1;class#Short#0" />
-            <element signature="method#parseShort#1;class#Short#0" />
-            <element signature="docComment;method#valueOf#0;class#Short#0" />
-            <element signature="method#valueOf#0;class#Short#0" />
-            <element signature="docComment;method#valueOf#1;class#Short#0" />
-            <element signature="method#valueOf#1;class#Short#0" />
-            <element signature="initializer##0;class#ShortCache#0;class#Short#0" />
-            <element signature="docComment;method#valueOf#2;class#Short#0" />
-            <element signature="method#valueOf#2;class#Short#0" />
-            <element signature="docComment;method#decode#0;class#Short#0" />
-            <element signature="method#decode#0;class#Short#0" />
-            <element signature="docComment;field#value#0;class#Short#0" />
-            <element signature="docComment;method#Short#0;class#Short#0" />
-            <element signature="docComment;method#Short#1;class#Short#0" />
-            <element signature="method#Short#1;class#Short#0" />
-            <element signature="docComment;method#byteValue#0;class#Short#0" />
-            <element signature="docComment;method#shortValue#0;class#Short#0" />
-            <element signature="docComment;method#intValue#0;class#Short#0" />
-            <element signature="docComment;method#longValue#0;class#Short#0" />
-            <element signature="docComment;method#floatValue#0;class#Short#0" />
-            <element signature="docComment;method#doubleValue#0;class#Short#0" />
-            <element signature="docComment;method#toString#1;class#Short#0" />
-            <element signature="docComment;method#hashCode#0;class#Short#0" />
-            <element signature="docComment;method#hashCode#1;class#Short#0" />
-            <element signature="docComment;method#equals#0;class#Short#0" />
-            <element signature="method#equals#0;class#Short#0" />
-            <element signature="docComment;method#compareTo#0;class#Short#0" />
-            <element signature="docComment;method#compare#0;class#Short#0" />
-            <element signature="docComment;field#SIZE#0;class#Short#0" />
-            <element signature="docComment;field#BYTES#0;class#Short#0" />
-            <element signature="docComment;method#reverseBytes#0;class#Short#0" />
-            <element signature="docComment;method#toUnsignedInt#0;class#Short#0" />
-            <element signature="docComment;method#toUnsignedLong#0;class#Short#0" />
-            <element signature="docComment;field#serialVersionUID#0;class#Short#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/TicketWindowTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1552,20 +1461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/ThreadInterrupt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/utils/HttpUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="73" column="65" selection-start-line="73" selection-start-column="65" selection-end-line="73" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -1591,10 +1486,187 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/utils/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="73" column="65" selection-start-line="73" selection-start-column="65" selection-end-line="73" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="962" column="32" selection-start-line="962" selection-start-column="19" selection-end-line="962" selection-end-column="32" />
+          <folding>
+            <element signature="docComment;class#Thread#0" />
+            <element signature="initializer##0;class#Thread#0" />
+            <element signature="e#6729#6990#0" />
+            <element signature="e#7338#7541#0" />
+            <element signature="e#7547#7610#0" />
+            <element signature="e#7661#7730#0" />
+            <element signature="e#7783#7846#0" />
+            <element signature="e#7899#8034#0" />
+            <element signature="e#8089#8879#0" />
+            <element signature="e#8924#9636#0" />
+            <element signature="e#9720#10656#0" />
+            <element signature="e#9720#11157#0" />
+            <element signature="e#11163#11322#0" />
+            <element signature="e#11163#11489#0" />
+            <element signature="e#11495#12088#0" />
+            <element signature="e#11495#14284#0" />
+            <element signature="e#14290#14498#0" />
+            <element signature="e#14290#14631#0" />
+            <element signature="e#14637#14999#0" />
+            <element signature="e#15091#15668#0" />
+            <element signature="e#15777#15903#0" />
+            <element signature="e#15777#16037#0" />
+            <element signature="e#16043#17191#0" />
+            <element signature="e#17320#17587#0" />
+            <element signature="e#17667#18527#0" />
+            <element signature="e#18627#19083#0" />
+            <element signature="e#19182#21407#0" />
+            <element signature="e#21526#25393#0" />
+            <element signature="e#21526#25548#0" />
+            <element signature="e#25554#26264#0" />
+            <element signature="e#25554#27369#0" />
+            <element signature="e#27410#27848#0" />
+            <element signature="e#27410#27958#0" />
+            <element signature="e#27964#28089#0" />
+            <element signature="e#27964#28564#0" />
+            <element signature="e#28570#32828#0" />
+            <element signature="e#32512#32575#0" />
+            <element signature="e#33652#35481#0" />
+            <element signature="e#33652#35873#0" />
+            <element signature="e#35879#36668#0" />
+            <element signature="e#36709#36710#0" expanded="true" />
+            <element signature="e#36767#36768#0" expanded="true" />
+            <element signature="e#36774#37268#0" />
+            <element signature="e#37354#37523#0" />
+            <element signature="e#37597#38578#0" />
+            <element signature="e#38673#38904#0" />
+            <element signature="e#38953#40204#0" />
+            <element signature="e#38953#40303#0" />
+            <element signature="e#40309#41224#0" />
+            <element signature="e#40309#41321#0" />
+            <element signature="e#41327#42330#0" />
+            <element signature="e#41327#42788#0" />
+            <element signature="e#42794#42920#0" />
+            <element signature="e#42994#43511#0" />
+            <element signature="e#42994#43806#0" />
+            <element signature="e#43812#43934#0" />
+            <element signature="e#44003#44206#0" />
+            <element signature="e#44288#45102#0" />
+            <element signature="e#45215#46491#0" />
+            <element signature="e#46621#47090#0" />
+            <element signature="e#47154#48046#0" />
+            <element signature="e#47154#48703#0" />
+            <element signature="e#48709#49761#0" />
+            <element signature="e#48709#50273#0" />
+            <element signature="e#50279#50763#0" />
+            <element signature="e#50279#50845#0" />
+            <element signature="e#50851#51040#0" />
+            <element signature="e#51145#51788#0" />
+            <element signature="e#51145#51972#0" />
+            <element signature="e#51978#52195#0" />
+            <element signature="e#52268#52761#0" />
+            <element signature="e#52268#52951#0" />
+            <element signature="e#52957#53150#0" />
+            <element signature="e#52957#53519#0" />
+            <element signature="e#53525#54835#0" />
+            <element signature="e#53525#55257#0" />
+            <element signature="e#55263#56259#0" />
+            <element signature="e#55263#56528#0" />
+            <element signature="e#56534#57125#0" />
+            <element signature="e#57287#58949#0" />
+            <element signature="e#57287#60109#0" />
+            <element signature="e#59334#59396#0" />
+            <element signature="e#59701#59769#0" />
+            <element signature="e#60115#61698#0" />
+            <element signature="e#60115#62661#0" />
+            <element signature="e#62828#62875#0" />
+            <element signature="e#62828#63347#0" />
+            <element signature="e#63014#63061#0" />
+            <element signature="e#63184#63237#0" />
+            <element signature="e#63353#63645#0" />
+            <element signature="e#63353#64171#0" />
+            <element signature="e#64177#64404#0" />
+            <element signature="e#64177#65500#0" />
+            <element signature="e#65635#65987#0" />
+            <element signature="e#66045#67251#0" />
+            <element signature="e#66045#69689#0" />
+            <element signature="e#67284#67363#0" />
+            <element signature="e#67386#67641#0" />
+            <element signature="e#67669#67986#0" />
+            <element signature="e#68013#68885#0" />
+            <element signature="e#68912#69519#0" />
+            <element signature="e#69552#69663#0" />
+            <element signature="e#69695#69922#0" />
+            <element signature="e#69695#70050#0" />
+            <element signature="e#70081#71152#0" />
+            <element signature="e#70081#71588#0" />
+            <element signature="e#71234#71527#0" />
+            <element signature="e#71822#73501#0" />
+            <element signature="e#71822#73870#0" />
+            <element signature="e#73876#74205#0" />
+            <element signature="e#73876#74340#0" />
+            <element signature="e#74346#74775#0" />
+            <element signature="e#74346#74945#0" />
+            <element signature="e#74951#75686#0" />
+            <element signature="e#74951#75829#0" />
+            <element signature="e#75835#75961#0" />
+            <element signature="e#76097#76220#0" />
+            <element signature="e#76097#76536#0" />
+            <element signature="e#76542#76590#0" />
+            <element signature="e#76542#78010#0" />
+            <element signature="e#76663#76821#0" />
+            <element signature="e#76863#76972#0" />
+            <element signature="e#76863#77134#0" />
+            <element signature="e#77144#77227#0" />
+            <element signature="e#77322#77610#0" />
+            <element signature="e#77322#78004#0" />
+            <element signature="e#78017#78086#0" />
+            <element signature="e#78353#78400#0" />
+            <element signature="e#78469#78538#0" />
+            <element signature="e#78607#78676#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/ThreadInterrupt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="51" column="70" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/TicketWindowTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/TestMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-test/target/classes/com/yangy/test/test/thread/TestMonitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yangyng-test/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="413">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
         </state>
       </provider>
     </entry>

@@ -34,15 +34,12 @@ class TicketWindowThread implements Runnable {
 
     private int index = 1;
     private final static Object READ = new Object();
-    private final static Object WRITE = new Object();
 
     @Override
     public void run() {
         synchronized (READ) {
-            synchronized (WRITE) {
-                while (index <= MAX) {
-                    System.out.println("柜台: " + Thread.currentThread() + " 当前的号码是: " + (index++));
-                }
+            while (index <= MAX) {
+                System.out.println("柜台: " + Thread.currentThread() + " 当前的号码是: " + (index++));
             }
         }
     }
