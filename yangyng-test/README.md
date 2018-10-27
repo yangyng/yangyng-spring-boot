@@ -117,7 +117,22 @@ synchronized关键字提供了一种互斥机制,即同一时刻只能有一个�
 5. 文件锁
 6. 死循环引起的死锁
 
-#### 2.3 同步阻塞与异步非阻塞 ####
+#### 2.3 wait和notify ####
+
+1. wait是可中断方法
+2. 线程执行了某个对象的wait方法后,会加入预支对应的wait set中,每一个对象的monitor都有一个与之关联的wait set
+3. 必须在同步方法中使用wait和notify方法,因为执行wait和notify的前提小件是必须持有同步方法的monitor的所有权
+
+tips:
+
+1. wait和sleep 都可以使线程进入阻塞状态,都可被中断
+2. wait 是Object的方法,sleep是线程特有的方法
+3. wait方法的执行必须在同步方法中
+4. wait方法会释放锁,sleep不会
+5. sleep短暂时间休眠后会主动退出阻塞
+
+
+
 
 
 
