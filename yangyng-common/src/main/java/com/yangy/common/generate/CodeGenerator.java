@@ -1,4 +1,4 @@
-package com.yangy.manage.generate;
+package com.yangy.common.generate;
 
 import com.baomidou.mybatisplus.core.exceptions.MybatisPlusException;
 import com.baomidou.mybatisplus.core.toolkit.StringPool;

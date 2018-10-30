@@ -1,6 +1,7 @@
 package com.yangy.manage.controller;
 
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.yangy.common.enums.ResultCode;
 import com.yangy.common.exception.BaseException;
 import com.yangy.common.model.Result;
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.util.Collection;
 
 /**
  * <p>
@@ -31,6 +33,46 @@ public class SysUserController {
 
     @Resource
     private ISysUserService service;
+
+    @PostMapping("save")
+    public Result save(@RequestBody SysUser sysUser) {
+        boolean save = service.save(sysUser);
+        return new Result<Boolean>().ok(save);
+    }
+
+    @PostMapping("save/batch")
+    public Result saveBatch(@RequestBody Collection<SysUser> collection) {
+        boolean save = service.saveBatch(collection);
+        return new Result<Boolean>().ok(save);
+    }
+
+    @PostMapping("update")
+    public Result update(@RequestBody SysUser sysUser) {
+        if (null == sysUser || null == sysUser.getUserId()) {
+            throw new BaseException(ResultCode.PARAM_ERROR);
+        }
+        boolean updateById = service.updateById(sysUser);
+        return new Result<Boolean>().ok(updateById);
+    }
+
+    @PostMapping("updateBatch")
+    public Result updateBatch(@RequestBody Collection<SysUser> collection) {
+        boolean batch = service.updateBatchById(collection);
+        return new Result<Boolean>().ok(batch);
+    }
+
+    @PostMapping("get/one")
+    public Result getOne(@RequestBody QueryWrapper<SysUser> queryParam) {
+        SysUser byId = service.getOne(queryParam);
+        return new Result<SysUser>().ok(byId);
+    }
+
+//    @PostMapping("get/one")
+//    public Result page(@RequestBody QueryWrapper<SysUser> queryParam) {
+//        SysUser byId = service.page(queryParam);
+//
+//        return new Result<SysUser>().ok(byId);
+//    }
 
     @Resource
     private RedisTemplate redisTemplate;
@@ -62,9 +104,9 @@ public class SysUserController {
     @PostMapping("test/current")
     public Result testCurrent(@RequestBody SysUser user) {
         Boolean notAbsent = redisTemplate.opsForValue().setIfAbsent("key", "value");
-        if(!notAbsent){
+        if (!notAbsent) {
             System.out.println("该请求不予处理");
-        }else {
+        } else {
             System.out.println("处理该请求");
             service.doSomeThing(user);
         }

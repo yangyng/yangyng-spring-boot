@@ -11,8 +11,10 @@
         <module name="yangyng-eureka" />
         <module name="yangyng-gateway" />
         <module name="yangyng-manage" />
+        <module name="yangyng-order" />
         <module name="yangyng-pay" />
         <module name="yangyng-test" />
+        <module name="yangyng-user" />
       </profile>
     </annotationProcessing>
   </component>
