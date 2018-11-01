@@ -2,6 +2,7 @@ package com.yangy.common.utils;
 
 import com.yangy.common.enums.ResultCode;
 import com.yangy.common.exception.BaseException;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.http.Consts;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -29,6 +30,7 @@ import java.util.Map;
  * @create 2018/8/8
  * @since 1.0.0
  */
+@Slf4j
 public class HttpUtil {
 
     public static void main(String[] args) {
@@ -73,7 +75,7 @@ public class HttpUtil {
         httpPost.setEntity(postEntity);
         HttpResponse httpResponse = httpClient.execute(httpPost);
         HttpEntity httpEntity = httpResponse.getEntity();
-        System.out.println("请求地址 -> " + url);
+        log.info("请求地址 -> " + url);
         return EntityUtils.toString(httpEntity, Consts.UTF_8.name());
     }
 
@@ -86,9 +88,33 @@ public class HttpUtil {
         HttpResponse httpResponse = httpClient.execute(httpGet);
         HttpEntity httpEntity = httpResponse.getEntity();
 
-        System.out.println("请求地址 -> " + url);
+        log.info("请求地址 -> " + url);
         return EntityUtils.toString(httpEntity, Consts.UTF_8.name());
 
+    }
+
+    public static String get(String url, String data, int readTimeoutMs, int connectTimeoutMs) throws Exception {
+        HttpClient httpClient = getHttpClient();
+        HttpGet httpGet = new HttpGet(url);
+        RequestConfig requestConfig = RequestConfig.custom().setSocketTimeout(readTimeoutMs).setConnectTimeout(connectTimeoutMs).build();
+        httpGet.setConfig(requestConfig);
+        HttpResponse httpResponse = httpClient.execute(httpGet);
+        HttpEntity httpEntity = httpResponse.getEntity();
+
+        log.info("请求地址 -> " + url);
+        return EntityUtils.toString(httpEntity, Consts.UTF_8.name());
+    }
+
+    public static String get(String url, String data) throws Exception {
+        HttpClient httpClient = getHttpClient();
+        HttpGet httpGet = new HttpGet(url);
+        RequestConfig requestConfig = RequestConfig.custom().setSocketTimeout(10000).setConnectTimeout(10000).build();
+        httpGet.setConfig(requestConfig);
+        HttpResponse httpResponse = httpClient.execute(httpGet);
+        HttpEntity httpEntity = httpResponse.getEntity();
+
+        log.info("请求地址 -> " + url);
+        return EntityUtils.toString(httpEntity, Consts.UTF_8.name());
     }
 
 

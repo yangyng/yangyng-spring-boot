@@ -11,31 +11,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72143703-e2c9-4c83-9d73-1eec3ca4c166" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/yangyng-order/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangyng-order/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/BasicThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/DenyPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/InternalTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/LinkedThreadQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/ThreadFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/ThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/ThreadQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangyng-user/src/main/java/com/yangy/user/controller/UsUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangyng-user/src/main/java/com/yangy/user/entity/UsUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangyng-user/src/main/java/com/yangy/user/mapper/UsUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangyng-user/src/main/java/com/yangy/user/service/IUsUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangyng-user/src/main/java/com/yangy/user/service/impl/UsUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/config/ThirdLoginConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/config/ThirdURLConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/model/MpPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/model/ThirdLoginModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/pojo/vo/ThirdLoginUserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/utils/AesCbcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/utils/WeChatLoginUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yangyng-spring-boot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/yangy/manage/controller/UsUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/yangy/manage/entity/UsUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/yangy/manage/mapper/UsUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/yangy/manage/service/IUsUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/yangy/manage/service/impl/UsUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/resources/mapper/UsUserMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yangyng-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangyng-manage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-manage/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/ManageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/ManageApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/utils/AESUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/utils/AESUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/utils/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/utils/HttpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/utils/login/wechat/WeChatLoginUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/utils/login/wechat/WeChatLoginUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-gateway/src/test/java/com/yangy/gateway/GatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/config/MybatisPlusConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/controller/SysUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/generate/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/generate/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangyng-test/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-test/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-order/src/test/java/com/yangy/order/YangyngOrderApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-pay/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-pay/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-pay/src/test/java/com/yangy/pay/YangyngPayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-test/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/TestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/EventClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/EventClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/BasicThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/BasicThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/LinkedThreadQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/LinkedThreadQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-test/src/test/java/com/yangy/test/YangyngTestApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-test/src/test/java/com/yangy/yangyngtrace/YangyngTraceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-user/src/test/java/com/yangy/user/YangyngUserApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/yangyng-manage/target/" />
     <ignored path=".idea/" />
@@ -62,11 +74,11 @@
           <entry key="cmd" value="1" />
           <entry key="ftl" value="1" />
           <entry key="gitignore" value="3" />
-          <entry key="java" value="241" />
+          <entry key="java" value="249" />
           <entry key="md" value="5" />
           <entry key="mvnw" value="1" />
           <entry key="properties" value="3" />
-          <entry key="xml" value="40" />
+          <entry key="xml" value="42" />
           <entry key="yml" value="16" />
         </counts>
       </usages-collector>
@@ -74,40 +86,40 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="FTL" value="1" />
-          <entry key="JAVA" value="241" />
+          <entry key="JAVA" value="249" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="Properties" value="3" />
-          <entry key="XML" value="40" />
+          <entry key="XML" value="42" />
           <entry key="YAML" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="9337" />
+          <entry key="java" value="9505" />
           <entry key="md" value="2083" />
           <entry key="txt" value="237" />
-          <entry key="xml" value="702" />
+          <entry key="xml" value="704" />
           <entry key="yml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9337" />
+          <entry key="JAVA" value="9505" />
           <entry key="PLAIN_TEXT" value="2342" />
-          <entry key="XML" value="702" />
+          <entry key="XML" value="704" />
           <entry key="YAML" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.27" value="2" />
-          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="2" />
           <entry key="project.open.time.34" value="2" />
@@ -116,7 +128,42 @@
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.50" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="21" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-888013072">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+          <entry key="project" value="1" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2" />
+          <entry key="xml" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2" />
+          <entry key="XML" value="20" />
         </counts>
       </usages-collector>
     </session>
@@ -124,26 +171,116 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangyng-manage/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+            <state relative-caret-position="237">
+              <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/config/MybatisPlusConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-756" />
+            <state relative-caret-position="233">
+              <caret line="20" column="5" lean-forward="true" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/controller/SysUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="120" column="48" selection-start-line="120" selection-start-column="36" selection-end-line="120" selection-end-column="48" />
+              <folding>
+                <element signature="docComment;class#SysUserController#0" />
+                <element signature="docComment;method#save#0;class#SysUserController#0" />
+                <element signature="method#save#0;class#SysUserController#0" />
+                <element signature="docComment;method#saveBatch#0;class#SysUserController#0" />
+                <element signature="method#saveBatch#0;class#SysUserController#0" />
+                <element signature="docComment;method#update#0;class#SysUserController#0" />
+                <element signature="method#update#0;class#SysUserController#0" />
+                <element signature="docComment;method#updateBatch#0;class#SysUserController#0" />
+                <element signature="method#updateBatch#0;class#SysUserController#0" />
+                <element signature="docComment;method#getOne#0;class#SysUserController#0" />
+                <element signature="method#getOne#0;class#SysUserController#0" />
+                <element signature="docComment;method#list#0;class#SysUserController#0" />
+                <element signature="e#2183#2212#0" />
+                <element signature="method#login#0;class#SysUserController#0" />
+                <element signature="method#testCurrent#0;class#SysUserController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/model/PageInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yangyng-order/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/model/MpPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="441">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0.4/mybatis-plus-extension-3.0.4-sources.jar!/com/baomidou/mybatisplus/extension/plugins/pagination/Page.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-788">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/controller/SysUserRoleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/config/ManageWebMvcConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-903">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-boot-starter/3.0.4/mybatis-plus-boot-starter-3.0.4-sources.jar!/com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/utils/RequestUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-147">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -174,15 +311,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/yangyng-pay/src/main/java/com/yangy/pay/utils/xml/CurrentTestUtils.java" />
-        <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/service/ISysUserService.java" />
         <option value="$PROJECT_DIR$/yangyng-manage/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/yangyng-manage/src/main/resources/base_dev.yml" />
         <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/utils/ReserveServiceImplTest.java" />
         <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/service/impl/SysUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/handler/LogAspect.java" />
         <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/config/ManageWebMvcConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/ThreadCallableImpl.java" />
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/domain/User.java" />
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/current/CurrentTest.java" />
@@ -209,7 +343,6 @@
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/ThreadFactory.java" />
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/DenyPolicy.java" />
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/InternalTask.java" />
-        <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/LinkedThreadQueue.java" />
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/ThreadPool.java" />
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/BasicThreadPool.java" />
         <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/ManageApplication.java" />
@@ -220,11 +353,15 @@
         <option value="$PROJECT_DIR$/yangyng-common/pom.xml" />
         <option value="$PROJECT_DIR$/yangyng-manage/pom.xml" />
         <option value="$PROJECT_DIR$/yangyng-user/src/main/java/com/yangy/user/controller/UsUserController.java" />
-        <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/controller/SysUserController.java" />
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/ThreadQueue.java" />
-        <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/TestApplication.java" />
-        <option value="$PROJECT_DIR$/yangyng-order/pom.xml" />
         <option value="$PROJECT_DIR$/yangyng-order/src/main/java/com/yangy/order/OrderApplication.java" />
+        <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/TestApplication.java" />
+        <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/LinkedThreadQueue.java" />
+        <option value="$PROJECT_DIR$/yangyng-order/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/controller/SysUserController.java" />
+        <option value="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/model/MpPage.java" />
       </list>
     </option>
   </component>
@@ -249,15 +386,25 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yangyng-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yangyng-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-88" />
+    <option name="y" value="8" />
+    <option name="width" value="2420" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -275,6 +422,166 @@
               <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
               <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -291,7 +598,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="D:/idea_work_space/beauty/share-beauty-pay" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test/yangyng-spring-boot" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -332,7 +639,7 @@
     </option>
     <option name="contentProportion" value="0.14246197" />
   </component>
-  <component name="RunManager" selected="Application.CodeGenerator">
+  <component name="RunManager" selected="Spring Boot.ManageApplication">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yangy.user.generate.CodeGenerator" />
       <module name="yangyng-user" />
@@ -463,12 +770,12 @@
       <item itemvalue="Spring Boot.YangyngPayApplication" />
       <item itemvalue="Spring Boot.YangyngTestApplication" />
       <item itemvalue="Spring Boot.YangyngUserApplication" />
+      <item itemvalue="Spring Boot.YangyngOrderApplication" />
       <item itemvalue="Application.CurrentTest" />
       <item itemvalue="Application.ThreadInterrupt" />
       <item itemvalue="Application.TestMonitor" />
       <item itemvalue="Application.EventClient" />
       <item itemvalue="Application.CodeGenerator" />
-      <item itemvalue="Spring Boot.YangyngOrderApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -512,6 +819,10 @@
       <workItem from="1540799311488" duration="1907000" />
       <workItem from="1540809016412" duration="663000" />
       <workItem from="1540861030035" duration="3228000" />
+      <workItem from="1540984446001" duration="1370000" />
+      <workItem from="1541037094468" duration="398000" />
+      <workItem from="1541042281569" duration="586000" />
+      <workItem from="1541056239980" duration="1880000" />
     </task>
     <task id="LOCAL-00001" summary="修改MAVEN配置文件&#10;修改MD">
       <created>1539596729010</created>
@@ -608,12 +919,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148269000" />
+    <option name="totallyTimeSpent" value="154337000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.22653061" visible="true" weight="0.24426451" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.22653061" visible="true" weight="0.23819163" />
       <window_info id="Structure" order="1" sideWeight="0.7734694" side_tool="true" weight="0.24021593" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -630,8 +942,8 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.64912283" weight="0.39238653" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.45411605" side_tool="true" weight="0.2591508" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49932525" weight="0.5241581" />
-      <window_info anchor="bottom" id="Run Dashboard" order="12" sideWeight="0.54588395" visible="true" weight="0.16251831" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49932525" weight="0.2505568" />
+      <window_info anchor="bottom" id="Run Dashboard" order="12" sideWeight="0.54588395" visible="true" weight="0.045387994" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.329429" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -640,7 +952,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.19662163" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.15452091" />
       <window_info anchor="right" id="Bean Validation" order="7" weight="0.3299595" />
     </layout>
     <layout-to-restore>
@@ -722,121 +1034,7 @@
     <MESSAGE value="修改MD" />
     <option name="LAST_COMMIT_MESSAGE" value="修改MD" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-boot-starter/3.0.4/mybatis-plus-boot-starter-3.0.4-sources.jar!/com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.java</url>
-          <line>114</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/EventQueue.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/EventQueue.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/TestMonitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/TicketWindowTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/FunctionalInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="58" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/LinkedThreadQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/ThreadFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-user/mvnw" />
-    <entry file="file://$PROJECT_DIR$/yangyng-user/mvnw.cmd" />
-    <entry file="file://$PROJECT_DIR$/yangyng-user/src/main/java/com/yangy/user/service/IUsUserService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-user/src/main/resources/mapper/UsUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-user/src/main/java/com/yangy/user/generate/CodeGenerator.java" />
-    <entry file="file://$PROJECT_DIR$/yangyng-user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-user/src/main/java/com/yangy/user/UserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/generate/CodeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-user/src/main/java/com/yangy/user/mapper/UsUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-user/src/main/java/com/yangy/user/entity/UsUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="66" column="27" lean-forward="true" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-user/src/main/java/com/yangy/user/service/impl/UsUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yangyng-user/src/main/java/com/yangy/user/controller/UsUserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -893,20 +1091,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/controller/SysUserRoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/ThreadPool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="docComment;class#ThreadPool#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -924,24 +1112,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/controller/SysUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="docComment;class#SysUserController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/InternalTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -994,114 +1168,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/TestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="189" column="4" selection-start-line="189" selection-start-column="4" selection-end-line="189" selection-end-column="4" />
-          <folding>
-            <element signature="docComment;class#Integer#0" />
-            <element signature="e#1209#1313#0" />
-            <element signature="e#1381#1486#0" />
-            <element signature="e#1554#1681#0" />
-            <element signature="e#1818#1893#0" />
-            <element signature="e#2203#4189#0" />
-            <element signature="e#2203#4887#0" />
-            <element signature="e#4893#6040#0" />
-            <element signature="e#6178#7922#0" />
-            <element signature="e#8020#9435#0" />
-            <element signature="e#9535#10854#0" />
-            <element signature="e#10955#11016#0" />
-            <element signature="e#10955#11477#0" />
-            <element signature="e#11483#11924#0" />
-            <element signature="e#11483#12283#0" />
-            <element signature="e#13557#13617#0" />
-            <element signature="e#14399#14833#0" />
-            <element signature="e#14399#15124#0" />
-            <element signature="e#15130#15674#0" />
-            <element signature="e#15786#16121#0" />
-            <element signature="e#15786#17024#0" />
-            <element signature="e#16643#16688#0" />
-            <element signature="e#17191#17346#0" />
-            <element signature="e#17352#19805#0" />
-            <element signature="e#17352#22103#0" />
-            <element signature="e#22109#22981#0" />
-            <element signature="e#22109#23090#0" />
-            <element signature="e#23096#24953#0" />
-            <element signature="e#23096#26316#0" />
-            <element signature="e#26322#27115#0" />
-            <element signature="e#26322#27241#0" />
-            <element signature="e#27247#28396#0" />
-            <element signature="e#27247#28539#0" />
-            <element signature="e#28545#29434#0" />
-            <element signature="e#28545#29564#0" />
-            <element signature="e#29570#30045#0" />
-            <element signature="e#29570#31256#0" />
-            <element signature="e#30202#31215#0" />
-            <element signature="e#31262#31941#0" />
-            <element signature="e#31262#32146#0" />
-            <element signature="e#32152#32226#0" />
-            <element signature="e#32261#32501#0" />
-            <element signature="e#32573#33174#0" />
-            <element signature="e#32573#33278#0" />
-            <element signature="e#33284#33459#0" />
-            <element signature="e#33529#33705#0" />
-            <element signature="e#33778#33864#0" />
-            <element signature="e#33926#34139#0" />
-            <element signature="e#34209#34383#0" />
-            <element signature="e#34456#34631#0" />
-            <element signature="e#34707#35131#0" />
-            <element signature="e#35206#35445#0" />
-            <element signature="e#35539#35781#0" />
-            <element signature="e#35859#36266#0" />
-            <element signature="e#35859#36437#0" />
-            <element signature="e#36443#37767#0" />
-            <element signature="e#37866#39704#0" />
-            <element signature="e#37866#39881#0" />
-            <element signature="e#39887#41834#0" />
-            <element signature="e#39887#42239#0" />
-            <element signature="e#42245#44072#0" />
-            <element signature="e#42245#45730#0" />
-            <element signature="e#45337#45404#0" />
-            <element signature="e#45736#46344#0" />
-            <element signature="e#46465#46991#0" />
-            <element signature="e#47099#47562#0" />
-            <element signature="e#47682#48398#0" />
-            <element signature="e#48498#49263#0" />
-            <element signature="e#48498#49478#0" />
-            <element signature="e#49484#49915#0" />
-            <element signature="e#49484#50133#0" />
-            <element signature="e#50162#50303#0" />
-            <element signature="e#50356#50497#0" />
-            <element signature="e#50557#51187#0" />
-            <element signature="e#50557#51414#0" />
-            <element signature="e#51420#52048#0" />
-            <element signature="e#51420#52148#0" />
-            <element signature="e#52154#53141#0" />
-            <element signature="e#52154#53528#0" />
-            <element signature="e#53534#54213#0" />
-            <element signature="e#53534#54619#0" />
-            <element signature="e#54625#55053#0" />
-            <element signature="e#54625#55346#0" />
-            <element signature="e#55352#56410#0" />
-            <element signature="e#56530#57594#0" />
-            <element signature="e#57715#58069#0" />
-            <element signature="e#57715#58431#0" />
-            <element signature="e#58437#58824#0" />
-            <element signature="e#58437#58935#0" />
-            <element signature="e#58941#59290#0" />
-            <element signature="e#58941#59491#0" />
-            <element signature="e#59497#59755#0" />
-            <element signature="e#59831#60150#0" />
-            <element signature="e#60235#60554#0" />
-            <element signature="e#60639#60702#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1109,169 +1179,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5334">
           <caret line="1364" column="21" selection-start-line="1364" selection-end-line="1365" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#ThreadPoolExecutor#0" />
-            <element signature="e#12824#15595#0" />
-            <element signature="e#16152#16251#0" />
-            <element signature="e#16256#16321#0" />
-            <element signature="e#16326#16386#0" />
-            <element signature="e#16808#16882#0" />
-            <element signature="e#17013#17087#0" />
-            <element signature="e#17218#17417#0" />
-            <element signature="e#17538#18090#0" />
-            <element signature="e#18149#18893#0" />
-            <element signature="e#18963#19068#0" />
-            <element signature="e#19141#19202#0" />
-            <element signature="e#19275#19365#0" />
-            <element signature="e#19404#19535#0" />
-            <element signature="e#19858#20785#0" />
-            <element signature="e#20841#20913#0" />
-            <element signature="e#20974#21214#0" />
-            <element signature="e#21261#21423#0" />
-            <element signature="e#21482#21681#0" />
-            <element signature="e#21726#21834#0" />
-            <element signature="e#21882#21939#0" />
-            <element signature="e#22039#23132#0" />
-            <element signature="e#23360#24258#0" />
-            <element signature="e#23360#26499#0" />
-            <element signature="e#24375#24512#0" />
-            <element signature="e#24597#24661#0" />
-            <element signature="e#24699#24742#0" />
-            <element signature="e#24779#24809#0" />
-            <element signature="e#24857#25002#0" />
-            <element signature="e#24857#25215#0" />
-            <element signature="e#25225#25275#0" />
-            <element signature="e#25352#25367#0" />
-            <element signature="e#25589#25819#0" />
-            <element signature="e#25829#25974#0" />
-            <element signature="e#25984#26025#0" />
-            <element signature="e#26034#26085#0" />
-            <element signature="e#26094#26135#0" />
-            <element signature="e#26144#26201#0" />
-            <element signature="e#26211#26493#0" />
-            <element signature="e#26562#26833#0" />
-            <element signature="e#26562#27101#0" />
-            <element signature="e#27107#27647#0" />
-            <element signature="e#27107#28620#0" />
-            <element signature="e#28703#29073#0" />
-            <element signature="e#28703#29549#0" />
-            <element signature="e#29555#29702#0" />
-            <element signature="e#29555#29977#0" />
-            <element signature="e#29983#30971#0" />
-            <element signature="e#29983#31621#0" />
-            <element signature="e#31627#31750#0" />
-            <element signature="e#32001#32146#0" />
-            <element signature="e#32250#32449#0" />
-            <element signature="e#32250#32479#0" />
-            <element signature="e#32485#32672#0" />
-            <element signature="e#32485#32842#0" />
-            <element signature="e#32848#33098#0" />
-            <element signature="e#32848#33495#0" />
-            <element signature="e#33584#34979#0" />
-            <element signature="e#33584#37329#0" />
-            <element signature="e#36268#36298#0" />
-            <element signature="e#37335#37582#0" />
-            <element signature="e#37335#37913#0" />
-            <element signature="e#37919#38530#0" />
-            <element signature="e#37919#39406#0" />
-            <element signature="e#39412#40229#0" />
-            <element signature="e#39412#41411#0" />
-            <element signature="e#41417#43544#0" />
-            <element signature="e#41417#45235#0" />
-            <element signature="e#43894#43947#0" />
-            <element signature="e#45281#46645#0" />
-            <element signature="e#47058#48406#0" />
-            <element signature="e#47058#48853#0" />
-            <element signature="e#48859#50229#0" />
-            <element signature="e#48859#50693#0" />
-            <element signature="e#50699#52167#0" />
-            <element signature="e#53266#53923#0" />
-            <element signature="e#55577#56007#0" />
-            <element signature="e#55577#56396#0" />
-            <element signature="e#56402#57156#0" />
-            <element signature="e#56402#57570#0" />
-            <element signature="e#57656#58170#0" />
-            <element signature="e#57656#58306#0" />
-            <element signature="e#58410#58963#0" />
-            <element signature="e#58969#59085#0" />
-            <element signature="e#58969#59401#0" />
-            <element signature="e#59298#59332#0" />
-            <element signature="e#59407#59626#0" />
-            <element signature="e#59407#59821#0" />
-            <element signature="e#59827#59994#0" />
-            <element signature="e#60082#60284#0" />
-            <element signature="e#60082#60477#0" />
-            <element signature="e#60483#60662#0" />
-            <element signature="e#60766#61249#0" />
-            <element signature="e#60766#62082#0" />
-            <element signature="e#61609#61667#0" />
-            <element signature="e#62088#62220#0" />
-            <element signature="e#62296#62628#0" />
-            <element signature="e#62296#62769#0" />
-            <element signature="e#62775#62906#0" />
-            <element signature="e#62775#63111#0" />
-            <element signature="e#63117#63355#0" />
-            <element signature="e#63117#63495#0" />
-            <element signature="e#63501#64043#0" />
-            <element signature="e#64141#64985#0" />
-            <element signature="e#64141#65351#0" />
-            <element signature="e#65357#65879#0" />
-            <element signature="e#65357#66201#0" />
-            <element signature="e#66207#66364#0" />
-            <element signature="e#66446#67196#0" />
-            <element signature="e#66446#67695#0" />
-            <element signature="e#67701#68021#0" />
-            <element signature="e#68187#68492#0" />
-            <element signature="e#68578#69302#0" />
-            <element signature="e#68578#69483#0" />
-            <element signature="e#69489#70016#0" />
-            <element signature="e#69489#70859#0" />
-            <element signature="e#70434#70498#0" />
-            <element signature="e#70887#71000#0" />
-            <element signature="e#70887#71392#0" />
-            <element signature="e#71137#71181#0" />
-            <element signature="e#71398#71544#0" />
-            <element signature="e#71398#71879#0" />
-            <element signature="e#71885#72040#0" />
-            <element signature="e#71885#72274#0" />
-            <element signature="e#72280#72580#0" />
-            <element signature="e#72280#73006#0" />
-            <element signature="e#73012#73366#0" />
-            <element signature="e#73012#73707#0" />
-            <element signature="e#73713#73955#0" />
-            <element signature="e#73713#74945#0" />
-            <element signature="e#74978#75593#0" />
-            <element signature="e#74978#75652#0" />
-            <element signature="e#75658#77691#0" />
-            <element signature="e#75658#77752#0" />
-            <element signature="e#77758#78009#0" />
-            <element signature="e#77758#78045#0" />
-            <element signature="e#78099#78334#0" />
-            <element signature="e#78099#78989#0" />
-            <element signature="e#78422#78484#0" />
-            <element signature="e#78422#78522#0" />
-            <element signature="e#78532#78825#0" />
-            <element signature="e#78532#78983#0" />
-            <element signature="e#78995#79099#0" />
-            <element signature="e#78995#79840#0" />
-            <element signature="e#79182#79240#0" />
-            <element signature="e#79182#79273#0" />
-            <element signature="e#79283#79543#0" />
-            <element signature="e#79283#79834#0" />
-            <element signature="e#79846#79942#0" />
-            <element signature="e#79846#80443#0" />
-            <element signature="e#80027#80086#0" />
-            <element signature="e#80027#80121#0" />
-            <element signature="e#80131#80353#0" />
-            <element signature="e#80131#80437#0" />
-            <element signature="e#80449#80658#0" />
-            <element signature="e#80449#81517#0" />
-            <element signature="e#80749#80837#0" />
-            <element signature="e#80749#80878#0" />
-            <element signature="e#80888#81311#0" />
-            <element signature="e#80888#81511#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1279,10 +1186,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
-          <folding>
-            <element signature="e#2032#2033#0" expanded="true" />
-            <element signature="e#2060#2061#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1297,30 +1200,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-          <folding>
-            <element signature="docComment;class#BasicThreadPool#0" />
-            <element signature="method#BasicThreadPool#0;class#BasicThreadPool#0" />
-            <element signature="method#init#0;class#BasicThreadPool#0" />
-            <element signature="method#newThread#0;class#BasicThreadPool#0" />
-            <element signature="method#execute#0;class#BasicThreadPool#0" />
-            <element signature="method#shutdown#0;class#BasicThreadPool#0" />
-            <element signature="class#ThreadTask#0;class#BasicThreadPool#0" />
-            <element signature="method#ThreadTask#0;class#ThreadTask#0;class#BasicThreadPool#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-order/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="64" column="43" lean-forward="true" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1328,88 +1207,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="230" column="29" selection-start-line="230" selection-start-column="29" selection-end-line="230" selection-end-column="29" />
-          <folding>
-            <element signature="docComment;class#Executors#0" />
-            <element signature="docComment;method#newFixedThreadPool#0;class#Executors#0" />
-            <element signature="method#newFixedThreadPool#0;class#Executors#0" />
-            <element signature="docComment;method#newWorkStealingPool#0;class#Executors#0" />
-            <element signature="method#newWorkStealingPool#0;class#Executors#0" />
-            <element signature="docComment;method#newWorkStealingPool#1;class#Executors#0" />
-            <element signature="method#newWorkStealingPool#1;class#Executors#0" />
-            <element signature="docComment;method#newFixedThreadPool#1;class#Executors#0" />
-            <element signature="docComment;method#newSingleThreadExecutor#0;class#Executors#0" />
-            <element signature="docComment;method#newSingleThreadExecutor#1;class#Executors#0" />
-            <element signature="docComment;method#newCachedThreadPool#0;class#Executors#0" />
-            <element signature="docComment;method#newCachedThreadPool#1;class#Executors#0" />
-            <element signature="docComment;method#newSingleThreadScheduledExecutor#0;class#Executors#0" />
-            <element signature="method#newSingleThreadScheduledExecutor#0;class#Executors#0" />
-            <element signature="docComment;method#newSingleThreadScheduledExecutor#1;class#Executors#0" />
-            <element signature="method#newSingleThreadScheduledExecutor#1;class#Executors#0" />
-            <element signature="docComment;method#newScheduledThreadPool#0;class#Executors#0" />
-            <element signature="docComment;method#newScheduledThreadPool#1;class#Executors#0" />
-            <element signature="docComment;method#unconfigurableExecutorService#0;class#Executors#0" />
-            <element signature="method#unconfigurableExecutorService#0;class#Executors#0" />
-            <element signature="docComment;method#unconfigurableScheduledExecutorService#0;class#Executors#0" />
-            <element signature="method#unconfigurableScheduledExecutorService#0;class#Executors#0" />
-            <element signature="docComment;method#defaultThreadFactory#0;class#Executors#0" />
-            <element signature="e#15215#15216#0" expanded="true" />
-            <element signature="e#15264#15265#0" expanded="true" />
-            <element signature="docComment;method#privilegedThreadFactory#0;class#Executors#0" />
-            <element signature="docComment;method#callable#0;class#Executors#0" />
-            <element signature="method#callable#0;class#Executors#0" />
-            <element signature="docComment;method#callable#1;class#Executors#0" />
-            <element signature="method#callable#1;class#Executors#0" />
-            <element signature="docComment;method#callable#2;class#Executors#0" />
-            <element signature="method#callable#2;class#Executors#0" />
-            <element signature="docComment;method#callable#3;class#Executors#0" />
-            <element signature="method#callable#3;class#Executors#0" />
-            <element signature="docComment;method#privilegedCallable#0;class#Executors#0" />
-            <element signature="method#privilegedCallable#0;class#Executors#0" />
-            <element signature="docComment;method#privilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
-            <element signature="method#privilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
-            <element signature="docComment;class#RunnableAdapter#0;class#Executors#0" />
-            <element signature="class#RunnableAdapter#0;class#Executors#0" />
-            <element signature="method#RunnableAdapter#0;class#RunnableAdapter#0;class#Executors#0" />
-            <element signature="method#call#0;class#RunnableAdapter#0;class#Executors#0" />
-            <element signature="docComment;class#PrivilegedCallable#0;class#Executors#0" />
-            <element signature="class#PrivilegedCallable#0;class#Executors#0" />
-            <element signature="method#PrivilegedCallable#0;class#PrivilegedCallable#0;class#Executors#0" />
-            <element signature="method#call#0;class#PrivilegedCallable#0;class#Executors#0" />
-            <element signature="docComment;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
-            <element signature="class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
-            <element signature="method#PrivilegedCallableUsingCurrentClassLoader#0;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
-            <element signature="e#23308#23357#0" />
-            <element signature="e#23590#23648#0" />
-            <element signature="method#call#0;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
-            <element signature="docComment;class#DefaultThreadFactory#0;class#Executors#0" />
-            <element signature="docComment;class#PrivilegedThreadFactory#0;class#Executors#0" />
-            <element signature="class#PrivilegedThreadFactory#0;class#Executors#0" />
-            <element signature="method#PrivilegedThreadFactory#0;class#PrivilegedThreadFactory#0;class#Executors#0" />
-            <element signature="e#26539#26588#0" />
-            <element signature="method#newThread#0;class#PrivilegedThreadFactory#0;class#Executors#0" />
-            <element signature="docComment;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#DelegatedExecutorService#0;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#execute#0;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#shutdown#0;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#shutdownNow#0;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#isShutdown#0;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#isTerminated#0;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#awaitTermination#0;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#invokeAll#0;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#invokeAll#1;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#invokeAny#0;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#invokeAny#1;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="class#FinalizableDelegatedExecutorService#0;class#Executors#0" />
-            <element signature="docComment;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
-            <element signature="class#DelegatedScheduledExecutorService#0;class#Executors#0" />
-            <element signature="method#DelegatedScheduledExecutorService#0;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
-            <element signature="method#schedule#0;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
-            <element signature="method#schedule#1;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
-            <element signature="method#scheduleAtFixedRate#0;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
-            <element signature="method#scheduleWithFixedDelay#0;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
-            <element signature="docComment;method#Executors#0;class#Executors#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1417,9 +1214,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="104" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1430,22 +1224,189 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-order/src/test/java/com/yangy/order/YangyngOrderApplicationTests.java" />
     <entry file="file://$PROJECT_DIR$/yangyng-manage/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="798">
           <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-756" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/yangyng-order/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="147">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/TestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/LinkedThreadQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/utils/login/wechat/WeChatLoginUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11970">
+          <caret line="616" column="44" selection-start-line="616" selection-start-column="8" selection-end-line="616" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28203">
+          <caret line="1455" column="19" selection-start-line="1455" selection-start-column="19" selection-end-line="1455" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/utils/StrUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/generate/CodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-boot-starter/3.0.4/mybatis-plus-boot-starter-3.0.4-sources.jar!/com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="20" column="5" lean-forward="true" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/utils/RequestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/config/ManageWebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-903">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/controller/SysUserRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/model/PageInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0.4/mybatis-plus-extension-3.0.4-sources.jar!/com/baomidou/mybatisplus/extension/plugins/pagination/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-788">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/controller/SysUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="120" column="48" selection-start-line="120" selection-start-column="36" selection-end-line="120" selection-end-column="48" />
+          <folding>
+            <element signature="docComment;class#SysUserController#0" />
+            <element signature="docComment;method#save#0;class#SysUserController#0" />
+            <element signature="method#save#0;class#SysUserController#0" />
+            <element signature="docComment;method#saveBatch#0;class#SysUserController#0" />
+            <element signature="method#saveBatch#0;class#SysUserController#0" />
+            <element signature="docComment;method#update#0;class#SysUserController#0" />
+            <element signature="method#update#0;class#SysUserController#0" />
+            <element signature="docComment;method#updateBatch#0;class#SysUserController#0" />
+            <element signature="method#updateBatch#0;class#SysUserController#0" />
+            <element signature="docComment;method#getOne#0;class#SysUserController#0" />
+            <element signature="method#getOne#0;class#SysUserController#0" />
+            <element signature="docComment;method#list#0;class#SysUserController#0" />
+            <element signature="e#2183#2212#0" />
+            <element signature="method#login#0;class#SysUserController#0" />
+            <element signature="method#testCurrent#0;class#SysUserController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/model/MpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

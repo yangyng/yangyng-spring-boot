@@ -10,7 +10,6 @@ import java.util.concurrent.TimeUnit;
  */
 public class EventClient {
 
-
     public static void main(String[] args) {
 
         final EventQueue eventQueue = new EventQueue();
@@ -20,7 +19,6 @@ public class EventClient {
                 eventQueue.offer(new EventQueue.Event());
             }
         }, "生产者").start();
-
 
         new Thread(() -> {
             for (; ; ) {

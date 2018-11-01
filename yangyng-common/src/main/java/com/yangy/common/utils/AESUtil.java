@@ -104,7 +104,6 @@ public class AESUtil {
 
     public static void main(String[] args) {
         String info = "this ia a message";
-
         String aesEncode = aesEncode(info);
         System.out.println("加密结果: " + aesEncode);
         String aesDecode = aesDecode(aesEncode);

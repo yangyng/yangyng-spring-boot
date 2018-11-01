@@ -1,9 +1,15 @@
 package com.yangy.common.utils.login.wechat;
 
-import com.yangy.common.config.WeChatConfig;
-import org.apache.http.Consts;
+import com.alibaba.fastjson.JSONObject;
+import com.yangy.common.config.ThirdLoginConfig;
+import com.yangy.common.config.ThirdURLConstant;
+import com.yangy.common.model.ThirdLoginModel;
+import com.yangy.common.utils.AesCbcUtil;
+import com.yangy.common.utils.HttpUtil;
+import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
 
-import java.net.URLEncoder;
+import java.util.Date;
 
 /**
  * 微信第三方登录工具类
@@ -13,26 +19,55 @@ import java.net.URLEncoder;
  * @create 2018/8/8
  * @since 1.0.0
  */
+@Slf4j
 public class WeChatLoginUtil {
 
-    public static void getCode() throws Exception {
-        String encode = URLEncoder.encode("http://tfaudc.natappfree.cc/test/wxLoginCallback", Consts.UTF_8.name());
+    /**
+     * <p>
+     * 根据code获取用户 openId及 unionId sessionKey
+     * </p>
+     *
+     * @param code
+     * @return
+     */
+    public static ThirdLoginModel miniAppLogin(String code) {
+        String url = ThirdURLConstant.MINIAPP_JSCODE2SESSION
+                .replace("APPID", ThirdLoginConfig.wxAppId)
+                .replace("SECRET", ThirdLoginConfig.wxAppSecret)
+                .replace("JSCODE", code);
+        String resultStr = null;
 
-        String getCodeUrl = WeChatConfig.getGetCodeUrl();
-
-        String url = "https://open.weixin.qq.com/connect/qrconnect?appid=APPID&redirect_uri=REDIRECT_URI&response_type=code&scope=SCOPE&state=STATE#wechat_redirect";
-        url = url.replace("APPID", "wxcc5884c547bc6752")
-                .replace("REDIRECT_URI", encode)
-                .replace("SCOPE", "snsapi_login")
-                .replace("STATE", "GzB5zUwo543UutSepSUX")
-        ;
-
-        System.out.println(url);
+        try {
+            resultStr = HttpUtil.get(url, null);
+        } catch (Exception e) {
+            log.error("请求失败");
+            return null;
+        }
+        JSONObject resultJSON = JSONObject.parseObject(resultStr);
+        String sessionKey = String.valueOf(resultJSON.get("session_key"));
+        String openId = String.valueOf(resultJSON.get("openid"));
+        return ThirdLoginModel.builder().sessionKey(sessionKey).openId(openId).build();
     }
 
-    public static void main(String[] args) throws Exception {
-        getCode();
+    /**
+     * <p>
+     * 小程序获取用户信息 包含加密数据
+     * </P>
+     *
+     * @param data
+     * @param code
+     * @param iv
+     * @return
+     * @throws Exception
+     */
+    public static ThirdLoginModel miniAppUserInfo(String data, String code, String iv) throws Exception {
+        ThirdLoginModel loginModel = miniAppLogin(code);
+        if (null == loginModel || StringUtils.isEmpty(loginModel.getSessionKey())) {
+            log.error("获取token失败");
+            return null;
+        }
+        String decodeData = AesCbcUtil.decrypt(data, loginModel.getSessionKey(), iv, "UTF-8");
+        ThirdLoginModel model = JSONObject.parseObject(decodeData, ThirdLoginModel.class);
+        return model;
     }
-
-
 }

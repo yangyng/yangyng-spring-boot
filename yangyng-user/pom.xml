@@ -12,8 +12,8 @@
     <description>用户相关的服务</description>
 
     <parent>
-        <groupId>com.yangy</groupId>
-        <artifactId>yangyng-common</artifactId>
+        <groupId>com.yangyng</groupId>
+        <artifactId>yangyng-spring-boot</artifactId>
         <version>1.0</version>
     </parent>
 

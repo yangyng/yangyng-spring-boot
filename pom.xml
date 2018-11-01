@@ -9,11 +9,21 @@
     <packaging>pom</packaging>
     <version>1.0</version>
 
+    <name>yangyng-spring-boot</name>
+    <!-- FIXME change it to the project's website -->
+    <url>http://www.example.com</url>
+
     <modules>
         <module>yangyng-common</module>
         <module>yangyng-config</module>
         <module>yangyng-eureka</module>
         <module>yangyng-gateway</module>
+
+        <module>yangyng-manage</module>
+        <module>yangyng-test</module>
+        <module>yangyng-user</module>
+        <module>yangyng-pay</module>
+        <module>yangyng-order</module>
     </modules>
 
     <dependencies>
@@ -32,10 +42,6 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
-
-    <name>spring-boot</name>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
