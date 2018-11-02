@@ -3,7 +3,6 @@ package com.yangy.manage.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.yangy.common.enums.ResultCode;
 import com.yangy.common.exception.BaseException;
 import com.yangy.common.model.MpPage;
@@ -83,6 +82,27 @@ public class SysUserController {
 
     /**
      * <p>
+     * 修改用户信息
+     * </P>
+     *
+     * @param sysUser
+     * @return
+     */
+    @PostMapping("del")
+    public Result del(@RequestBody SysUser sysUser) {
+        if (null == sysUser || null == sysUser.getUserId()) {
+            throw new BaseException(ResultCode.PARAM_ERROR);
+        }
+        SysUser user = SysUser.builder()
+                .userId(sysUser.getUserId())
+                .locked(1)
+                .build();
+        boolean updateById = service.updateById(user);
+        return new Result<Boolean>().ok(updateById);
+    }
+
+    /**
+     * <p>
      * 批量修改用户信息
      * </P>
      *
@@ -125,8 +145,8 @@ public class SysUserController {
 
     @PostMapping("page")
     public Result page(@RequestBody MpPage<SysUser> sysUserMpPage) {
-        IPage<SysUser> page = new Page();
-        IPage<SysUser> userIPage = service.page(page, queryParam);
+        QueryWrapper<SysUser> query = sysUserMpPage.getQuery();
+        IPage<SysUser> userIPage = service.page(sysUserMpPage, query);
         return new Result<IPage<SysUser>>().ok(userIPage);
     }
 

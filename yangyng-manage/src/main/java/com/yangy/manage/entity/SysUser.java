@@ -68,7 +68,7 @@ public class SysUser implements Serializable {
     private Long ctime;
 
     @ApiModelProperty(value = "启用状态(0 启用 1 锁定)")
-    private Integer locked;
+    private int locked;
 
 
 }
