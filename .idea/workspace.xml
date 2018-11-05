@@ -10,11 +10,14 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72143703-e2c9-4c83-9d73-1eec3ca4c166" name="Default Changelist" comment="">
+    <list default="true" id="72143703-e2c9-4c83-9d73-1eec3ca4c166" name="Default Changelist" comment="修改控制器&#10;添加Mybatis plus分页">
+      <change afterPath="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/bean/ShiroRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/model/MpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/model/MpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-manage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-manage/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/controller/SysUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/entity/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/entity/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangyng-manage/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yangyng-manage/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/yangyng-manage/target/" />
     <ignored path=".idea/" />
@@ -41,51 +44,51 @@
           <entry key="cmd" value="1" />
           <entry key="ftl" value="1" />
           <entry key="gitignore" value="3" />
-          <entry key="java" value="268" />
+          <entry key="java" value="301" />
           <entry key="md" value="5" />
           <entry key="mvnw" value="1" />
           <entry key="properties" value="3" />
-          <entry key="xml" value="42" />
-          <entry key="yml" value="16" />
+          <entry key="xml" value="43" />
+          <entry key="yml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="FTL" value="1" />
-          <entry key="JAVA" value="268" />
+          <entry key="JAVA" value="301" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="Properties" value="3" />
-          <entry key="XML" value="42" />
-          <entry key="YAML" value="16" />
+          <entry key="XML" value="43" />
+          <entry key="YAML" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="10150" />
+          <entry key="java" value="11145" />
           <entry key="md" value="2083" />
-          <entry key="txt" value="237" />
-          <entry key="xml" value="704" />
-          <entry key="yml" value="35" />
+          <entry key="txt" value="261" />
+          <entry key="xml" value="713" />
+          <entry key="yml" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10150" />
-          <entry key="PLAIN_TEXT" value="2342" />
-          <entry key="XML" value="704" />
-          <entry key="YAML" value="35" />
+          <entry key="JAVA" value="11145" />
+          <entry key="PLAIN_TEXT" value="2366" />
+          <entry key="XML" value="713" />
+          <entry key="YAML" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.27" value="3" />
           <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="2" />
@@ -95,7 +98,8 @@
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.50" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
     </session>
@@ -138,10 +142,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/model/MpPage.java">
+        <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/config/ShiroConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="136">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,25 +153,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/controller/SysUserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="314">
+              <caret line="164" column="13" lean-forward="true" selection-start-line="164" selection-start-column="13" selection-end-line="164" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="docComment;class#SysUserController#0" />
+                <element signature="e#1041#1056#0" />
                 <element signature="docComment;method#save#0;class#SysUserController#0" />
                 <element signature="method#save#0;class#SysUserController#0" />
                 <element signature="docComment;method#saveBatch#0;class#SysUserController#0" />
                 <element signature="method#saveBatch#0;class#SysUserController#0" />
                 <element signature="docComment;method#update#0;class#SysUserController#0" />
+                <element signature="method#update#0;class#SysUserController#0" />
+                <element signature="docComment;method#del#0;class#SysUserController#0" />
+                <element signature="method#del#0;class#SysUserController#0" />
                 <element signature="docComment;method#updateBatch#0;class#SysUserController#0" />
                 <element signature="method#updateBatch#0;class#SysUserController#0" />
                 <element signature="docComment;method#getOne#0;class#SysUserController#0" />
                 <element signature="method#getOne#0;class#SysUserController#0" />
                 <element signature="docComment;method#list#0;class#SysUserController#0" />
+                <element signature="method#list#0;class#SysUserController#0" />
+                <element signature="method#page#0;class#SysUserController#0" />
+                <element signature="e#4022#4051#0" />
                 <element signature="method#login#0;class#SysUserController#0" />
+                <element signature="e#4483#4489#0" />
                 <element signature="method#testCurrent#0;class#SysUserController#0" />
               </folding>
             </state>
@@ -175,72 +186,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/entity/SysUser.java">
+        <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/bean/ShiroRealm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="69" column="43" lean-forward="true" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0.4/mybatis-plus-extension-3.0.4-sources.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="302" column="32" selection-start-line="302" selection-start-column="32" selection-end-line="302" selection-end-column="32" />
+            <state relative-caret-position="138">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
-                <element signature="e#9908#9909#0" expanded="true" />
-                <element signature="e#9972#9973#0" expanded="true" />
+                <element signature="docComment;class#ShiroRealm#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.4/mybatis-plus-core-3.0.4-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="234" column="25" selection-start-line="234" selection-start-column="25" selection-end-line="234" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.4/mybatis-plus-core-3.0.4-sources.jar!/com/baomidou/mybatisplus/core/metadata/IPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="160" column="16" lean-forward="true" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.4/mybatis-plus-core-3.0.4-sources.jar!/com/baomidou/mybatisplus/core/toolkit/Assert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="e#1956#1957#0" expanded="true" />
-                <element signature="e#2003#2004#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.4/mybatis-plus-core-3.0.4-sources.jar!/com/baomidou/mybatisplus/core/toolkit/TableInfoHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="105" column="40" lean-forward="true" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="215" selection-start-line="215" selection-end-line="215" />
+            <state relative-caret-position="237">
+              <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -262,6 +223,7 @@
       <find>sou</find>
       <find>notify</find>
       <find>run</find>
+      <find>hashAlgorithmName</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -271,9 +233,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/yangyng-manage/src/main/resources/base_dev.yml" />
-        <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/utils/ReserveServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/service/impl/SysUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/handler/LogAspect.java" />
         <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/config/ManageWebMvcConfig.java" />
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/thread/ThreadCallableImpl.java" />
@@ -310,7 +269,6 @@
         <option value="$PROJECT_DIR$/yangyng-user/src/main/java/com/yangy/user/service/impl/UsUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/yangyng-user/pom.xml" />
         <option value="$PROJECT_DIR$/yangyng-common/pom.xml" />
-        <option value="$PROJECT_DIR$/yangyng-manage/pom.xml" />
         <option value="$PROJECT_DIR$/yangyng-user/src/main/java/com/yangy/user/controller/UsUserController.java" />
         <option value="$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/ThreadQueue.java" />
         <option value="$PROJECT_DIR$/yangyng-order/src/main/java/com/yangy/order/OrderApplication.java" />
@@ -320,8 +278,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/config/MybatisPlusConfig.java" />
         <option value="$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/model/MpPage.java" />
-        <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/controller/SysUserController.java" />
         <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/entity/SysUser.java" />
+        <option value="$PROJECT_DIR$/yangyng-manage/pom.xml" />
+        <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/controller/SysUserController.java" />
+        <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/bean/ShiroRealm.java" />
+        <option value="$PROJECT_DIR$/yangyng-manage/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -349,15 +311,6 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="yangyng-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="yangyng-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="yangyng-manage" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -370,10 +323,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="51" />
+    <option name="width" value="1553" />
+    <option name="height" value="840" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -383,57 +335,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
               <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="yangyng-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="yangyng-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="yangyng-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="yangyng-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="yangyng-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="yangyng-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
@@ -469,6 +378,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
@@ -480,12 +409,28 @@
               <item name="manage" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangyng-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangyng-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="yangyng-manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -493,16 +438,16 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="ClassLoader&#9;PSI&#9;JAVA://java.lang.ClassLoader&#10;MybatisPlusAutoConfiguration&#9;PSI&#9;JAVA://com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration" />
+    <property name="SearchEverywhereHistoryKey" value="logout&#9;PSI&#9;JAVA://org.apache.shiro.web.filter.authc.LogoutFilter&#10;ClassLoader&#9;PSI&#9;JAVA://java.lang.ClassLoader&#10;MybatisPlusAutoConfiguration&#9;PSI&#9;JAVA://com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="D:/idea_work_space/beauty/share-beauty-pay" />
+    <property name="last_opened_file_path" value="D:/idea_work_space/beauty/share-beauty-user" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -722,7 +667,9 @@
       <workItem from="1541037094468" duration="398000" />
       <workItem from="1541042281569" duration="586000" />
       <workItem from="1541056239980" duration="1948000" />
-      <workItem from="1541123576274" duration="8653000" />
+      <workItem from="1541123576274" duration="9124000" />
+      <workItem from="1541211022697" duration="1910000" />
+      <workItem from="1541379906289" duration="12867000" />
     </task>
     <task id="LOCAL-00001" summary="修改MAVEN配置文件&#10;修改MD">
       <created>1539596729010</created>
@@ -822,17 +769,24 @@
       <option name="project" value="LOCAL" />
       <updated>1541072069462</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="修改控制器&#10;添加Mybatis plus分页">
+      <created>1541156309447</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1541156309447</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163058000" />
+    <option name="totallyTimeSpent" value="178306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.22653061" visible="true" weight="0.24156545" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.22653061" visible="true" weight="0.2091768" />
       <window_info id="Structure" order="1" sideWeight="0.7734694" side_tool="true" weight="0.24021593" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -840,17 +794,17 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32739422" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.562753" weight="0.5055679" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.562753" weight="0.47291362" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932525" weight="0.5754026" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.5651537" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.64912283" weight="0.36863825" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.44527897" side_tool="true" weight="0.47216037" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49932525" weight="0.47877014" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="12" sideWeight="0.55472106" visible="true" weight="0.5783309" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.64912283" weight="0.4714495" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.44669366" side_tool="true" weight="0.47877014" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49932525" weight="0.5446559" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="12" sideWeight="0.55330634" visible="true" weight="0.1669107" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.329429" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -940,153 +894,22 @@
     <MESSAGE value="修改notify和wait测试方法" />
     <MESSAGE value="修改MD" />
     <MESSAGE value="修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+    <MESSAGE value="修改控制器&#10;添加Mybatis plus分页" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改控制器&#10;添加Mybatis plus分页" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/credential/HashedCredentialsMatcher.java</url>
+          <line>380</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/EventQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/UUID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/AbstractExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="127" column="35" lean-forward="true" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/SecurityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="226" column="6" selection-start-line="226" selection-start-column="6" selection-end-line="226" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="251" column="28" selection-start-line="251" selection-start-column="28" selection-end-line="251" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="189" column="4" selection-start-line="189" selection-start-column="4" selection-end-line="189" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5334">
-          <caret line="1364" column="21" selection-start-line="1364" selection-end-line="1365" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/DenyPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/BasicThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="230" column="29" selection-start-line="230" selection-start-column="29" selection-end-line="230" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/ManageApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="104" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-order/src/main/java/com/yangy/order/OrderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-order/src/test/java/com/yangy/order/YangyngOrderApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/yangyng-manage/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-order/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/TestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-test/src/main/java/com/yangy/test/test/threadpool/LinkedThreadQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/utils/login/wechat/WeChatLoginUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11970">
@@ -1168,11 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="20" column="5" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1201,9 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#1603#1604#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1228,31 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.4/mybatis-plus-core-3.0.4-sources.jar!/com/baomidou/mybatisplus/core/toolkit/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#1956#1957#0" expanded="true" />
-            <element signature="e#2003#2004#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.4/mybatis-plus-core-3.0.4-sources.jar!/com/baomidou/mybatisplus/core/toolkit/TableInfoHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="105" column="40" lean-forward="true" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="215" selection-start-line="215" selection-end-line="215" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.4/mybatis-plus-core-3.0.4-sources.jar!/com/baomidou/mybatisplus/core/conditions/AbstractWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
@@ -1262,7 +1052,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0.4/mybatis-plus-extension-3.0.4-sources.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="5082">
           <caret line="302" column="32" selection-start-line="302" selection-start-column="32" selection-end-line="302" selection-end-column="32" />
           <folding>
             <element signature="e#9908#9909#0" expanded="true" />
@@ -1273,55 +1063,365 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.4/mybatis-plus-core-3.0.4-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
+        <state relative-caret-position="4431">
           <caret line="234" column="25" selection-start-line="234" selection-start-column="25" selection-end-line="234" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.4/mybatis-plus-core-3.0.4-sources.jar!/com/baomidou/mybatisplus/core/metadata/IPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="160" column="16" lean-forward="true" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
+        <state relative-caret-position="2814">
+          <caret line="160" column="16" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/model/MpPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.4/mybatis-plus-core-3.0.4-sources.jar!/com/baomidou/mybatisplus/core/toolkit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="504">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#2003#2004#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.4/mybatis-plus-core-3.0.4-sources.jar!/com/baomidou/mybatisplus/core/toolkit/TableInfoHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1407">
+          <caret line="105" column="40" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3843">
+          <caret line="215" selection-start-line="215" selection-end-line="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-manage/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/context/annotation/Bean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="218" column="18" selection-start-line="218" selection-start-column="18" selection-end-line="218" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/mgt/DefaultWebSecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authz/AuthorizationInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/entity/SysUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="69" column="43" lean-forward="true" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
+        <state relative-caret-position="268">
+          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/crypto/hash/SimpleHash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/SimpleAuthenticationInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/mgt/SecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-spring/1.3.2/shiro-spring-1.3.2-sources.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="379" column="19" selection-start-line="379" selection-start-column="19" selection-end-line="379" selection-end-column="19" />
+          <folding>
+            <element signature="docComment;class#ShiroFilterFactoryBean#0" />
+            <element signature="method#ShiroFilterFactoryBean#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="docComment;method#getSecurityManager#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="docComment;method#setSecurityManager#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="docComment;method#getLoginUrl#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="docComment;method#setLoginUrl#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="docComment;method#getSuccessUrl#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="docComment;method#setSuccessUrl#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="docComment;method#getUnauthorizedUrl#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="docComment;method#setUnauthorizedUrl#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="docComment;method#getFilters#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="docComment;method#setFilters#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="docComment;method#getFilterChainDefinitionMap#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="docComment;method#setFilterChainDefinitionMap#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="docComment;method#setFilterChainDefinitions#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="e#16544#16629#0" />
+            <element signature="docComment;method#getObject#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="method#getObject#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="docComment;method#getObjectType#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="docComment;method#isSingleton#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="e#18810#18891#0" />
+            <element signature="docComment;method#createInstance#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="method#createInstance#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="e#21247#21316#0" />
+            <element signature="e#21629#21722#0" />
+            <element signature="method#applyLoginUrlIfNecessary#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="method#applySuccessUrlIfNecessary#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="method#applyUnauthorizedUrlIfNecessary#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="method#applyGlobalPropertiesIfNecessary#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="docComment;method#postProcessBeforeInitialization#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="method#postProcessBeforeInitialization#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="docComment;method#postProcessAfterInitialization#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="method#postProcessAfterInitialization#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="docComment;class#SpringShiroFilter#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="class#SpringShiroFilter#0;class#ShiroFilterFactoryBean#0" />
+            <element signature="method#SpringShiroFilter#0;class#SpringShiroFilter#0;class#ShiroFilterFactoryBean#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32-sources.jar!/javax/servlet/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-431">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/filter/authc/LogoutFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1859">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-common/src/main/java/com/yangy/common/model/MpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/pam/ModularRealmAuthenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="266" selection-start-line="266" selection-end-line="266" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/AbstractAuthenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="229" selection-start-line="229" selection-end-line="229" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/mgt/DefaultSecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="279" selection-start-line="279" selection-end-line="279" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/realm/AuthorizingRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1252">
+          <caret line="188" column="29" selection-start-line="188" selection-start-column="29" selection-end-line="188" selection-end-column="29" />
+          <folding>
+            <element signature="docComment;class#AuthorizingRealm#0" />
+            <element signature="e#2964#3069#0" />
+            <element signature="e#3396#3527#0" />
+            <element signature="e#4211#4857#0" />
+            <element signature="e#5015#5483#0" />
+            <element signature="e#5241#5324#0" />
+            <element signature="e#5489#5637#0" />
+            <element signature="e#5854#6037#0" />
+            <element signature="e#6043#6426#0" />
+            <element signature="e#6557#6898#0" />
+            <element signature="e#6557#7200#0" />
+            <element signature="e#7304#7556#0" />
+            <element signature="e#7672#7826#0" />
+            <element signature="e#7985#9279#0" />
+            <element signature="e#7985#9445#0" />
+            <element signature="e#9451#9640#0" />
+            <element signature="e#9646#10713#0" />
+            <element signature="e#10719#11019#0" />
+            <element signature="e#11025#14404#0" />
+            <element signature="e#11025#16074#0" />
+            <element signature="e#16194#17469#0" />
+            <element signature="e#16194#17903#0" />
+            <element signature="e#17909#18484#0" />
+            <element signature="e#18587#19531#0" />
+            <element signature="e#19537#20134#0" />
+            <element signature="e#20140#20814#0" />
+            <element signature="e#20820#21026#0" />
+            <element signature="e#21032#21234#0" />
+            <element signature="e#21240#21688#0" />
+            <element signature="e#21694#22062#0" />
+            <element signature="e#22068#22280#0" />
+            <element signature="e#22286#22772#0" />
+            <element signature="e#22778#23269#0" />
+            <element signature="e#23275#23511#0" />
+            <element signature="e#23517#23867#0" />
+            <element signature="e#23873#24121#0" />
+            <element signature="e#24127#24355#0" />
+            <element signature="e#24361#24623#0" />
+            <element signature="e#24629#24932#0" />
+            <element signature="e#24938#25182#0" />
+            <element signature="e#25188#25461#0" />
+            <element signature="e#25467#25663#0" />
+            <element signature="e#25669#25849#0" />
+            <element signature="e#25855#26224#0" />
+            <element signature="e#26230#26735#0" />
+            <element signature="e#26741#26975#0" />
+            <element signature="e#26981#27344#0" />
+            <element signature="e#27350#27550#0" />
+            <element signature="e#27556#27788#0" />
+            <element signature="e#27794#28010#0" />
+            <element signature="e#28016#28177#0" />
+            <element signature="e#28183#28426#0" />
+            <element signature="e#28432#28947#0" />
+            <element signature="e#28432#29123#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/realm/AuthenticatingRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="596" column="38" selection-start-line="596" selection-start-column="20" selection-end-line="596" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/credential/SimpleCredentialsMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="41" column="77" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/credential/CredentialsMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/credential/Md5CredentialsMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/credential/HashedCredentialsMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="118" column="3" selection-start-line="30" selection-end-line="118" selection-end-column="3" />
+          <folding>
+            <element signature="docComment;class#HashedCredentialsMatcher#0" />
+            <element signature="docComment;field#hashAlgorithm#0;class#HashedCredentialsMatcher#0" />
+            <element signature="docComment;method#HashedCredentialsMatcher#0;class#HashedCredentialsMatcher#0" />
+            <element signature="docComment;method#HashedCredentialsMatcher#1;class#HashedCredentialsMatcher#0" />
+            <element signature="method#HashedCredentialsMatcher#1;class#HashedCredentialsMatcher#0" />
+            <element signature="docComment;method#getHashAlgorithmName#0;class#HashedCredentialsMatcher#0" />
+            <element signature="docComment;method#setHashAlgorithmName#0;class#HashedCredentialsMatcher#0" />
+            <element signature="docComment;method#isStoredCredentialsHexEncoded#0;class#HashedCredentialsMatcher#0" />
+            <element signature="docComment;method#setStoredCredentialsHexEncoded#0;class#HashedCredentialsMatcher#0" />
+            <element signature="method#setStoredCredentialsHexEncoded#0;class#HashedCredentialsMatcher#0" />
+            <element signature="docComment;method#isHashSalted#0;class#HashedCredentialsMatcher#0" />
+            <element signature="docComment;method#setHashSalted#0;class#HashedCredentialsMatcher#0" />
+            <element signature="docComment;method#getHashIterations#0;class#HashedCredentialsMatcher#0" />
+            <element signature="docComment;method#setHashIterations#0;class#HashedCredentialsMatcher#0" />
+            <element signature="docComment;method#getSalt#0;class#HashedCredentialsMatcher#0" />
+            <element signature="docComment;method#getCredentials#0;class#HashedCredentialsMatcher#0" />
+            <element signature="e#20316#20365#0" />
+            <element signature="docComment;method#doCredentialsMatch#0;class#HashedCredentialsMatcher#0" />
+            <element signature="docComment;method#hashProvidedCredentials#0;class#HashedCredentialsMatcher#0" />
+            <element signature="docComment;method#assertHashAlgorithmName#0;class#HashedCredentialsMatcher#0" />
+            <element signature="docComment;method#hashProvidedCredentials#1;class#HashedCredentialsMatcher#0" />
+            <element signature="docComment;method#newHashInstance#0;class#HashedCredentialsMatcher#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/controller/SysUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="314">
+          <caret line="164" column="13" lean-forward="true" selection-start-line="164" selection-start-column="13" selection-end-line="164" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;class#SysUserController#0" />
+            <element signature="e#1041#1056#0" />
             <element signature="docComment;method#save#0;class#SysUserController#0" />
             <element signature="method#save#0;class#SysUserController#0" />
             <element signature="docComment;method#saveBatch#0;class#SysUserController#0" />
             <element signature="method#saveBatch#0;class#SysUserController#0" />
             <element signature="docComment;method#update#0;class#SysUserController#0" />
+            <element signature="method#update#0;class#SysUserController#0" />
+            <element signature="docComment;method#del#0;class#SysUserController#0" />
+            <element signature="method#del#0;class#SysUserController#0" />
             <element signature="docComment;method#updateBatch#0;class#SysUserController#0" />
             <element signature="method#updateBatch#0;class#SysUserController#0" />
             <element signature="docComment;method#getOne#0;class#SysUserController#0" />
             <element signature="method#getOne#0;class#SysUserController#0" />
             <element signature="docComment;method#list#0;class#SysUserController#0" />
+            <element signature="method#list#0;class#SysUserController#0" />
+            <element signature="method#page#0;class#SysUserController#0" />
+            <element signature="e#4022#4051#0" />
             <element signature="method#login#0;class#SysUserController#0" />
+            <element signature="e#4483#4489#0" />
             <element signature="method#testCurrent#0;class#SysUserController#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/java/com/yangy/manage/bean/ShiroRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="docComment;class#ShiroRealm#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangyng-manage/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="34" />
         </state>
       </provider>
     </entry>

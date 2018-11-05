@@ -1,6 +1,7 @@
 package com.yangy.manage.controller;
 
 
+import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.yangy.common.enums.ResultCode;
@@ -12,6 +13,10 @@ import com.yangy.manage.entity.SysUser;
 import com.yangy.manage.pojo.LoginVO;
 import com.yangy.manage.service.ISysUserService;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.AuthenticationException;
+import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.subject.Subject;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
@@ -161,7 +166,7 @@ public class SysUserController {
     private RedisTemplate redisTemplate;
 
     @PostMapping("login")
-    public Result login(LoginVO loginVO) {
+    public Result login(@RequestBody LoginVO loginVO) {
         /*
          * 必须参数
          * 用户手机号 邮箱
@@ -171,17 +176,25 @@ public class SysUserController {
          * */
 
         //参数判空
-        if (null == loginVO
-                || (StringUtils.isEmpty(loginVO.getPhone()) && StringUtils.isEmpty(loginVO.getVerifyCode()))
-                || (StringUtils.isEmpty(loginVO.getUsername()) && StringUtils.isEmpty(loginVO.getPassword()))
-                || (StringUtils.isEmpty(loginVO.getEmail()) && StringUtils.isEmpty(loginVO.getPassword()))) {
-            throw new BaseException(ResultCode.PARAM_ERROR);
+//        if (null == loginVO
+//                || (StringUtils.isEmpty(loginVO.getPhone()) && StringUtils.isEmpty(loginVO.getVerifyCode()))
+//                || (StringUtils.isEmpty(loginVO.getUsername()) && StringUtils.isEmpty(loginVO.getPassword()))
+//                || (StringUtils.isEmpty(loginVO.getEmail()) && StringUtils.isEmpty(loginVO.getPassword()))) {
+//            throw new BaseException(ResultCode.PARAM_ERROR);
+//        }
+        Subject subject = SecurityUtils.getSubject();
+        UsernamePasswordToken token = new UsernamePasswordToken(loginVO.getUsername(), MD5Util.md5(loginVO.getPassword()));
+        JSONObject jsonObject = new JSONObject();
+
+        try {
+            subject.login(token);
+            jsonObject.put("token", subject.getSession().getId());
+            jsonObject.put("msg", "登陆成功");
+        } catch (AuthenticationException e) {
+            e.printStackTrace();
+            jsonObject.put("msg", "登陆失败");
         }
-
-        SysUser select = SysUser.builder().phone(loginVO.getPhone()).build();
-        String md5Str = MD5Util.md5(loginVO.getPassword() + loginVO.getSalt());
-
-        return null;
+        return new Result<Object>().ok(jsonObject);
     }
 
     @PostMapping("test/current")

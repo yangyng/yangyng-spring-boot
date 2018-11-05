@@ -73,6 +73,10 @@ redis:
   timeout: 1000
   password:
 
+logging:
+  level:
+    com.yangy.manage.mapper: debug
+
 #mybatisPlus
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Mapper.xml
@@ -121,10 +125,3 @@ eureka:
   client:
     service-url:
       defaultZone: http://${registration.master.hostname}:${registration.master.port}/eureka/
-
-
-
-
-
-
-
