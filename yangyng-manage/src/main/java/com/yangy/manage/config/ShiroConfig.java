@@ -66,6 +66,4 @@ public class ShiroConfig {
         realm.setCredentialsMatcher(matcher());
         return realm;
     }
-
-
 }
