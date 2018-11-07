@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: monitor
+  cloud:
+    config:
+      discovery:
+        service-id: config
+        enabled: true
+      uri: http://192.168.9.105/9231
+      name: base
+      profile: dev
+      username: yangy
+      password: yangy
+
+server:
+  port: 9232
+
+registration:
+  master:
+    hostname: localhost
+    port: 9230
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${registration.master.hostname}:${registration.master.port}/eureka/
+
+turbine:
+  app-config: order
+  cluster-name-expression: "'default'"

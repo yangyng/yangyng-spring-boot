@@ -1,39 +1,17 @@
 #公共配置
 server:
   #tomcat 编码格式
-  port: 9330
+  port: 9331
   tomcat:
     uri-encoding: UTF-8
   uri-encoding: UTF-8
 spring:
-  #视图配置
-  mvc:
-    static-path-pattern: /static/**
   #网络请求配置
   http:
     encoding:
       force: true
       charset: UTF-8
       enabled: true
-  #模板引擎配置
-  freemarker:
-    cache: false
-    prefer-file-system-access: false
-    settings:
-      template_update_delay: 0
-      classic_compatible: true
-      number_format: 0.######
-      auto_import: common/common.ftl as com
-      datetime_format: yyyy-MM-dd
-    charset: UTF-8
-    content-type: text/html
-    expose-request-attributes: false
-    expose-spring-macro-helpers: false
-    expose-session-attributes: false
-    request-context-attribute: request
-    prefix:
-    suffix: .ftl
-    template-loader-path: classpath:/templates/
   #连接池配置
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -53,8 +31,6 @@ spring:
       logAbandoned: true
       poolPreparedStatements: true
       maxOpenPreparedStatements: 100
-  resources:
-    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
   cloud:
     config:
       discovery:
@@ -67,6 +43,8 @@ spring:
       password: yangy
     application:
       name: manage
+  application:
+    name: order
 redis:
   host: 127.0.0.1
   port: 6379
@@ -111,7 +89,6 @@ mybatis-plus:
 
 test:
   msg: 这是一条测试消息5
-
 #公共配置
 registration:
   master:
@@ -122,7 +99,9 @@ eureka:
     service-url:
       defaultZone: http://${registration.master.hostname}:${registration.master.port}/eureka/
 
-
+feign:
+  hystrix:
+    enabled: true
 
 
 

@@ -22,12 +22,6 @@
             <groupId>com.yangy</groupId>
             <artifactId>yangyng-common</artifactId>
             <version>1.0</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.cloud</groupId>
-                    <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
