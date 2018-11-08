@@ -83,3 +83,22 @@ class Inner {
         return Instance.inner;
     }
 }
+
+class DoubleCheck {
+
+    private DoubleCheck doubleCheck;
+
+    private DoubleCheck() {
+    }
+
+    public DoubleCheck getInstance() {
+        if (null == doubleCheck) {
+            synchronized (this) {
+                if (null == doubleCheck) {
+                    doubleCheck = new DoubleCheck();
+                }
+            }
+        }
+        return doubleCheck;
+    }
+}
