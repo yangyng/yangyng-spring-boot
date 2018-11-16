@@ -58,7 +58,19 @@ public class DateUtils {
         return parse.getTime();
     }
 
-    public static void main(String[] args){
+    public static long getHourLater() {
+        Calendar calendar = Calendar.getInstance();
+        int hour = calendar.get(Calendar.HOUR);
+        calendar.set(Calendar.HOUR, hour + 1);
+        return calendar.getTimeInMillis();
+    }
 
+
+    public static void main(String[] args) throws ParseException {
+
+        long hourLater = getHourLater();
+        String timStrByFormat = getTimStrByFormat();
+        System.out.println(timStrByFormat);
+        System.out.println(getTimStrByFormat(hourLater));
     }
 }
