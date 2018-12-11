@@ -105,8 +105,8 @@ eureka:
       defaultZone: http://${registration.master.hostname}:${registration.master.port}/eureka/
 
 tenpay:
-  app-id: wx5ca7581639b516cc
-  mch-id: 1509469741
+  app-id: 
+  mch-id: 
   sign-type: Md5
-  notify-url: https://dev.lanqikeji.net/pay/pay/tencent/notify
-  private-key: D21C3D59C45A079C27283521D2077D6B
+  notify-url: 
+  private-key: 
